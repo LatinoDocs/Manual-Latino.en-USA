@@ -3,11 +3,11 @@
 ![Travis (.org) branch](https://img.shields.io/travis/LatinoDocs/Manual-Latino/master)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/MelvinG24/Latino)
 
-¡Bienvenidos! Este repositorio contiene los archivos y artículos de la documentación oficial de Latino, la cual esta publicada en el sitio de [Manual Latino](https://manual-latino.readthedocs.io/es/latest/).
+Welcome! This repository contains the files and articles of the official Latino documentation, which is published on the [Manual Latino](https://manual-latino.readthedocs.io/es/latest/). site.
 
-Esta documentación empezó a migrar al sitio actual el 24 de junio del 2020. La documentación ~~original~~ anterior se puede encontrar en [manuallatino.blogspot.com](https://manuallatino.blogspot.com).
+This documentation began migrating to the current site on June 24, 2020. The original original documentation can be found at [manuallatino.blogspot.com](https://manuallatino.blogspot.com).
 
-## Contribuir a la documentación
-Toda contribución que sea para mejorar la documentación de Latino es bienvenida. Todos los artículos de este repositorio usan el formato reStructuredText (RST) con excepción de los archivos readme.
+## Contribute to documentation
+Any contribution to improve Latino documentation is welcome. All articles in this repository use the reStructuredText (RST) format with the exception of the readme files.
 
-Para un mejor aclaramiento en cómo hacer una contribución a la documentación de Latino, mire el articulo de [guía de colaboración](.readme/CONTRIBUTING.md).
+For better clarification on how to make a contribution to the Latino documentation, see the [collaboration guide article](.readme/CONTRIBUTING.md).
