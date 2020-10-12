@@ -1,0 +1,9 @@
+#Ignorar directorios
+.vscode/
+env/
+_build/
+
+#Ignorar archivos
+docs/make.bat
+docs/Makefile
+.lat_historial

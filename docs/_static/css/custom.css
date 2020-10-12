@@ -1,0 +1,330 @@
+/* Main logo width */
+.wy-side-nav-search > a {width: 100% !important;}
+
+
+/* Applied on main index:sections. */
+/* Start section description. */
+@media screen and (min-width: 450px){
+	.tocdescr {
+		display: flex; display: -webkit-flex;
+		flex-flow: row wrap; -webkit-flex-flow: row wrap;
+		justify-content: space-between; -webkit-justify-content: space-between;
+		align-items: flex-start; -webkit-align-items: flex-start;
+		align-content: flex-start; -webkit-align-content: flex-start;
+		list-style-type: none;
+		margin-bottom: 10px;
+	}
+	/* Dan Andreasson on Stack Overflow. */
+	.tocdescr:after {
+		content: "";
+		flex: 1 0 33.3%; -webkit-flex: 1 0 33.3%;
+		margin-left: 45px;
+		align-self: stretch; -webkit-align-self: stretch;
+	}
+}
+@media screen and (max-width: 450px) {
+	.tocdescr {
+		display: flex; display: -webkit-flex;
+		flex-flow: column wrap; -webkit-flex-flow: column wrap;
+		justify-content: space-between; -webkit-justify-content: space-between;
+		align-items: flex-start; -webkit-align-items: flex-start;
+		align-content: flex-start; -webkit-align-content: flex-start;
+		list-style-type: none;
+		margin-bottom: 10px;
+	}
+	.tocdescr:after {
+		content: "";
+		flex: none; -webkit-flex: none;
+	}
+}
+.descr {
+	flex: 2 0 33.3%; -webkit-flex: 2 0 33.3%;
+	margin: 10px 15px;
+	border-radius: .3em;
+	user-select: none;
+}
+.descr div.figure {
+	margin-bottom: 0px;
+	display: block;
+}
+.descr img {
+	border-top-left-radius: .3em;
+	border-top-right-radius: .3em;
+}
+.descr dl {margin-bottom: 10px}
+.descr dl dt > a {
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.descr dl dt a em, .descr dl dt a span{
+	font-weight: bold;
+	font-style: normal;
+	font-size: 1.3em;
+}
+.descr dl dt{padding: 18px 15px 0px!important}
+.descr dl dd{
+	padding: 0px 15px;
+	font-style: normal;
+	margin: 0px;
+	color: #808080;
+	font-size: 90%;
+}
+.descr {
+	box-shadow: rgba(0,0,0,0.05) 0px 1px 4px 0px,
+					rgba(211,216,223,0.33) 0px 15px 20px -1px;
+}
+#empezando .descr {
+	box-shadow: none;
+}
+/* End section description. */
+
+
+/*-----------Custome Prism Code-----------*/
+code[class*=language-],
+pre[class*=language-] {
+    color: #000;
+    background: 0 0;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none
+}
+
+pre[class*=language-] {
+    position: relative;
+    overflow: visible;
+    border: 0
+}
+
+pre[class*=language-]>code {
+    position: relative;
+    background-color: #f8f8f8;
+    border: 1px solid #DEDEE3;
+    border-left: 10px solid #358ccb;
+    /*background-image: linear-gradient(transparent 50%, rgba(69, 142, 209, .04) 50%);*/
+    background-size: 3em 3em;
+    background-origin: content-box;
+    background-attachment: local
+}
+
+code[class*=language] {
+    max-height: inherit;
+    height: inherit;
+    padding: 0 1em;
+    display: block;
+    overflow: auto
+}
+
+:not(pre)>code[class*=language-],
+pre[class*=language-] {
+    background-color: #f8f8f8
+}
+
+:not(pre)>code[class*=language-] {
+    position: relative;
+    padding: .2em;
+    border-radius: .3em;
+    color: #c92c2c;
+    border: 1px solid rgba(0, 0, 0, .1);
+    display: inline;
+    white-space: normal
+}
+
+.token.block-comment,
+.token.cdata,
+.token.comment,
+.token.doctype,
+.token.prolog {
+    color: #7D8B99
+}
+
+.token.punctuation {
+    color: #5F6364
+}
+
+.token.boolean,
+.token.constant,
+.token.deleted,
+.token.function-name,
+.token.number,
+.token.property,
+.token.symbol,
+.token.tag {
+    color: #c92c2c
+}
+
+.token.attr-name,
+.token.char,
+.token.function,
+.token.inserted,
+.token.selector,
+.token.string {
+    color: #2f9c0a
+}
+
+.token.builtin {
+    color: #1990b8
+}
+
+.token.entity,
+.token.operator,
+.token.url,
+.token.variable {
+    color: #a67f59;
+    /*background: rgba(255, 255, 255, .5)*/
+}
+
+.token.atrule,
+.token.attr-value,
+.token.class-name,
+.token.keyword {
+    color: #b400ef
+}
+
+.token.important,
+.token.regex {
+    color: #e90
+}
+
+.language-css .token.string,
+.style .token.string {
+    color: #a67f59;
+    /*background: rgba(255, 255, 255, .5)*/
+}
+
+.token.important {
+    font-weight: 400
+}
+
+.token.bold {
+    font-weight: 700
+}
+
+.token.italic {
+    font-style: italic
+}
+
+.token.entity {
+    cursor: help
+}
+
+.namespace {
+    opacity: .7
+}
+
+.token.cr:before,
+.token.lf:before,
+.token.tab:not(:empty):before {
+    color: #e0d7d1
+}
+
+pre[class*=language-].line-numbers.line-numbers {
+    padding: 0
+}
+
+pre[class*=language-].line-numbers.line-numbers code {
+    padding-left: 3.8em
+}
+
+pre[class*=language-].line-numbers.line-numbers .line-numbers-rows {
+    left: 0
+}
+
+pre[class*=language-][data-line] {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0
+}
+
+pre[data-line] code {
+    position: relative;
+    padding-left: 4em
+}
+
+pre .line-highlight {
+    margin-top: 0
+}
+
+/*----------- Prism Line-Numbers -----------*/
+pre[class*=language-].line-numbers {
+    position: relative;
+    padding-left: 3.8em;
+    counter-reset: linenumber
+}
+
+pre[class*=language-].line-numbers>code {
+    position: relative;
+    white-space: inherit
+}
+
+.line-numbers .line-numbers-rows {
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    font-size: 100%;
+    left: -3.8em;
+    width: 3em;
+    letter-spacing: -1px;
+    border-right: 1px solid #e6e9ea;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.line-numbers-rows>span {
+    pointer-events: none;
+    display: block;
+    counter-increment: linenumber
+}
+
+.line-numbers-rows>span:before {
+    content: counter(linenumber);
+    color: #999;
+    display: block;
+    padding-right: .8em;
+    text-align: right
+}
+
+/*# sourceMappingURL=prism-line-numbers.min.css.map */
+/*-----------End Prism Code-----------*/
+
+.highlight {background: #f8f8f8 !important;}
+.highlight-latino {border-left: 10px solid #358ccb !important;}
+.highlight > pre, .linenodiv > pre, code.language-latino, .line-numbers-rows {font-size: 16px !important;}
+.linenodiv pre {padding-left: 20px !important; color: #999 !important;}
+code.language-latino, .line-numbers-rows {padding-top: 12px; padding-bottom: 12px;}
+pre.language-latino {margin: 0 !important;}
+div.code-toolbar {margin: 1em 0px;}
+div.toolbar-item > button {
+    display: inline-block;
+    color: #FFF;
+    padding: 5px 10px;
+    line-height: 1em;
+    font-size: 10px;
+    background: #666;
+    font-weight: 700;
+    border: 0;
+    width: 60px;
+    box-sizing: border-box;
+}
+div.toolbar-item > button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.nota > div {
+    background-color: #ffffcc;
+    border-left: 5px solid #ffeb3b;
+    box-sizing: border-box;
+    color: #333333;
+    font-size: 17.5px;
+    margin: 0px 0px 20px;
+    padding: 10px 20px;
+}
