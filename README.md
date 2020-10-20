@@ -3,9 +3,11 @@
 ![Travis (.org) branch](https://img.shields.io/travis/LatinoDocs/Manual-Latino/master)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/MelvinG24/Latino)
 
-Welcome! This repository contains the files and articles of the official Latino documentation, which is published on the [Manual Latino](https://manual-latino.readthedocs.io/es/latest/) site.
+Welcome! This repository contains the files and articles of the official Latino documentation(English version), which is published on the [Manual Latino](https://manual-latino.readthedocs.io/es/latest/) site.
 
-This documentation began migrating to the current site on June 24, 2020. The original original documentation can be found at [manuallatino.blogspot.com](https://manuallatino.blogspot.com).
+The translation of this documentation began on Oct. 12, 2020.
+
+This documentation is an English translation of the Spanish version which you can find [here](https://github.com/LatinoDocs/Manual-Latino), which at the same time it is a port and upgraded version of the original(archived) documentation which can be founded at [manuallatino.blogspot.com](https://manuallatino.blogspot.com)(Spanish only).
 
 ## Contribute to documentation
 Any contribution to improve Latino documentation is welcome. All articles in this repository use the reStructuredText (RST) format with the exception of the readme files.
