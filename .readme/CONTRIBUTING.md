@@ -1,35 +1,35 @@
-# Guía de colaboración
-Gracias por dedicar su tiempo en colaborar con la documentación de Latino.
+# Collaboration Guide
+Thank you for taking the time to help with the Latino documentation.
 
-En esta guía se explican algunos temas generales sobre cómo colaborar en esta documentación.
+This guide explains some general topics about how to contribute to this documentation.
 
-Los temas a tratar son:
-- [Procesos para contribuir](#proceso-para-contribuir)
-- [Hacer y No hacer](#hacer-y-no-hacer)
+The topics to be discussed are:
+- [Processes to contribute](#Process-to-contribute)
+- [Do's and Don'ts](#Do's-and-Don'ts)
 
-## Proceso para contribuir
+## Process to contribute
 
-- Para pequeñas colaboraciones, o correcciones en la documentación, sigue el siguiente procedimiento:
+- For small collaborations, or corrections in the documentation, follow the following procedure:
 
-  - Abra un problema (issue) que describa el artículo que desea escribir y cómo se relaciona con el contenido existente. El contenido dentro de la carpeta docs está organizado en secciones que están organizadas por área de contenido (por ejemplo, ../Operadores/). Intente determinar la carpeta correcta para su nuevo contenido.
+  - Open an issue that describes the article you want to write and how it relates to existing content. The content within the docs folder is organized into sections that are organized by content area (for example, ../Operators/). Try to determine the correct folder for your new content.
 
-- Para cualquier otra colaboración mayor, siga los siguientes pasos:
-    - **Paso 1:** Hacer un Fork del repositorio LatinoDocs/Manual-Latino.
+- For any other major collaboration, follow these steps:
+    - **Step 1:** Fork the LatinoDocs/Manual-Latino repository.
 
-    - **Paso 2:** Crear una rama (branch) para sus colaboraciones de artículos.
+    - **Step 2:** Create a branch for your article contributions.
 
-    - **Paso 3:** Escribir/modificar sus artículos.
-        - Si usted está creando un nuevo tema, puede usar la siguiente [plantilla](plantillas/plantilla.rst) como punto de partida.
+    - **Step 3:** Write / modify your articles.
+        -  If you are creating a new theme, you can use the following [template](plantillas/plantilla.rst) as a starting point. 
         
-        - Asegúrese que al crear un nuevo articulo, este esté guardado en la correcta ubicación de carpeta.
+        - Make sure that when creating a new article, it is saved in the correct folder location.
 
-## Hacer y No hacer
-A continuación, se incluye una breve lista de reglas de orientación que debe tener en cuenta al contribuir en la documentación.
+## Do's and Don'ts
+Here is a shortlist of guidance rules to keep in mind when contributing to documentation.
 
-- **No hacer:** NO envie múltiples problemas (issue) consecutivamente. En cambio, presente un problema (issue) para así plantear una conversación y llegar a una solución antes que usted invierta una gran cantidad de tiempo editando.
+- **Don't:** DO NOT submit multiple issues consecutively. Instead, present an issue to start a conversation and come up with a solution before you spend a lot of time editing.
 
-- **Hacer:** Lea la [guía de estilo]() antes de empezar a escribir.
+- **Do:** Read the [style guide]() before you start writing.
 
-- **Hacer:** Use la siguiente [plantilla](plantillas/plantilla.rst) como punto de partida.
+- **Do:** Use the following [template](plantillas/plantilla.rst) as a starting point.
 
-- **Hacer:** Creé una rama (branch) para su colaboración antes de hacer nada.
+- **Do:**  created a branch (branch) for your collaboration before doing anything.
