@@ -1,6 +1,6 @@
 .. meta::
-   :description: Documentación de Latino, un lenguaje de programación con sintaxis en Español
-   :keywords: manual, documentacion, latino
+   :description: Latino documentation, the first functional programing language with Spanish syntax
+   :keywords: manual, documentation, latino
 
 .. epigraph::
    
