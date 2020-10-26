@@ -10,19 +10,22 @@
 
 ----
 
-================================
-Manual Latino |LATINO_VERSION|
-================================
-Bienvenidos al manual de Latino_, un lenguaje de programación con sintaxis en Español.
+==================================================
+Manual Latino |LATINO_VERSION| (English version)
+==================================================
+Welcome to the documentation of Latino_, the first functional programing language with Spanish syntax.
 
-:Autor:
+:Author:
   `Melvin Guerrero`_
 
-:Versión:
+:Translator:
+  `Melvin Guerrero`_
+
+:Version:
   `Latino 1.3.0`_
 
-Empezando
-----------
+Getting Started
+----------------
 
 .. container:: tocdescr
    
@@ -42,7 +45,7 @@ Empezando
       
       :doc:`/ejemplos/Mi-Primer-Programa`
 
-Categorías
+Categories
 -----------
 
 .. container:: tocdescr
@@ -53,7 +56,7 @@ Categorías
          :target: Novedades.html
 
       :doc:`/Novedades`
-         Descubre las mejoras y novedades en esta nueva versión de Latino |LATINO_VERSION|
+         Discover whats new in this version of Latino |LATINO_VERSION|
    
    .. container:: descr
       
@@ -61,7 +64,7 @@ Categorías
          :target: sintaxis/Operadores.html
 
       :doc:`/sintaxis/Operadores`
-         Operadores de aritmética, asignación, condicionales, lógicos, relacionales, y más.
+         Arithmetic, assignment, conditional, logical, relational operators, and more.
    
    .. container:: descr
       
@@ -69,7 +72,7 @@ Categorías
          :target: sintaxis/Tipos-de-Datos.html
 
       :doc:`/sintaxis/Tipos-de-Datos`
-         Los tipos de datos es una clasificación que define el valor asociado a una variable u objeto.
+         Data types is a classification that defines the value associated with a variable or object.
    
    .. container:: descr
       
@@ -77,7 +80,7 @@ Categorías
          :target: sintaxis/Cadenas.html
 
       :doc:`/sintaxis/Cadenas`
-         Las cadenas (strings por su nombre en Ingles) son utilizados para almacenar y manipular textos en Latino.
+         Strings are used to store and manipulate text in Latino.
    
    .. container:: descr
       
@@ -85,7 +88,7 @@ Categorías
          :target: sintaxis/Modulo.html
 
       :doc:`/sintaxis/Modulo`
-         Un módulo es un archivo que contiene un conjunto de funciones que desea incluir en su aplicación.
+         A module is a file that contains a set of functions that you want to include in your application.
    
    .. container:: descr
       
@@ -93,39 +96,40 @@ Categorías
          :target: sintaxis/RegEx.html
 
       :doc:`/sintaxis/RegEx`
-         Una Expresión Regular o RegEx es una secuencia de caracteres que forman un patrón de búsqueda.
+         A Regular Expression or RegEx is a sequence of characters that form a search pattern.
    
    .. container:: descr
       
       :doc:`/Funciones-Base`
-         Son funciones predefinidas que nos ayudan a realizar ciertas tareas.
+         They are predefined functions that help us perform certain tasks.
       
    .. container:: descr
       
       :doc:`/latGlosario`
-         Lista de librerías, palabras reservadas y definiciones en Latino.
+         List of libraries, reserved words and definitions in Latino.
 
 ----
 
-Otras Documentaciones
+Other Documentations
 ----------------------
-`Latino API`_
+`Latino API`_ (On development)
 
 ----
 
-Enlaces Externos
+External links
 -----------------
-`Canal en Youtube`_
+`Youtube channel`_ (Spanish only)
 
-`Editor en-linea de Latino`_
+`Latino on-line editor`_
 
-.. .. attention:: Esta documentación esta sujeta a actualizaciones y modificaciones, ya que aún se encuentra en un proceso de desarrollo. Gracias.
+.. attention:: This documentation is subject to modifications and updates because is still in development. Thank you.
 
 ==================
-¿Deseas colaborar?
+Get Involved
 ==================
-Este manual esta abierto para cualquier voluntario que desee colaborar.
-Si desea colaborar, mire el articulo de `guía de colaboración`_
+This manual is open to anyone who wants to collaborate.
+
+Please, if you which to help see the `collaboration guide`_.
 
 
 .. Enlaces
@@ -134,9 +138,9 @@ Si desea colaborar, mire el articulo de `guía de colaboración`_
 .. _Melvin Guerrero: https://melvinguerrero.blogspot.com
 .. _Latino 1.3.0: https://github.com/lenguaje-latino/Latino/releases/tag/v1.3.0
 .. _Latino API: https://manuallatinoapi.blogspot.com
-.. _guía de colaboración: https://github.com/LatinoDocs/Manual-Latino/blob/master/.readme/CONTRIBUTING.md
-.. _Canal en Youtube: https://www.youtube.com/channel/UCLVTJpQn-TDbBSwR732kvnQ/featured
-.. _Editor en-linea de Latino: https://editorlatino.blogspot.com
+.. _collaboration guide: https://github.com/LatinoDocs/Manual-Latino.en-USA/blob/master/.readme/CONTRIBUTING.md
+.. _Youtube channel: https://www.youtube.com/channel/UCLVTJpQn-TDbBSwR732kvnQ/featured
+.. _Latino on-line editor: https://editorlatino.blogspot.com
 
 .. Tabla de contenido (TOC)
 
@@ -150,7 +154,7 @@ Si desea colaborar, mire el articulo de `guía de colaboración`_
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Instalar Latino
+   :caption: Install Latino
 
    OS/MS-Windows
    OS/Debian-Ubuntu
@@ -160,7 +164,7 @@ Si desea colaborar, mire el articulo de `guía de colaboración`_
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Editores de textos
+   :caption: Text editors
 
    editores/Atom
    editores/Notepad++
@@ -172,14 +176,14 @@ Si desea colaborar, mire el articulo de `guía de colaboración`_
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Primeros pasos
+   :caption: First steps
 
    ejemplos/Mi-Primer-Programa
 
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Sintaxis
+   :caption: Syntax
 
    sintaxis/Comentarios
    sintaxis/Variables
@@ -205,7 +209,7 @@ Si desea colaborar, mire el articulo de `guía de colaboración`_
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Funciones base (internas)
+   :caption: Main functions (internal)
    
    funciones/acadena
    funciones/alogico
@@ -220,7 +224,7 @@ Si desea colaborar, mire el articulo de `guía de colaboración`_
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Librerías
+   :caption: Library
 
    librerias/Archivo
    librerias/Cadena
@@ -232,13 +236,13 @@ Si desea colaborar, mire el articulo de `guía de colaboración`_
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Consola
+   :caption: Console
 
    consola/Comandos-Consola
 
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Referencias
+   :caption: References
 
    latGlosario
