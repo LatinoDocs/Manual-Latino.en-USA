@@ -31,7 +31,7 @@ Getting Started
    
    .. container:: descr
       
-      :doc:`/Sobre-Latino`
+      :doc:`/About-Latino`
    
    .. container:: descr
       
@@ -149,7 +149,7 @@ Please, if you which to help see the `collaboration guide`_.
    :hidden:
    
    Introduccion
-   Sobre-Latino
+   About-Latino
  
 .. toctree::
    :maxdepth: 2

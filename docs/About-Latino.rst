@@ -1,45 +1,49 @@
 .. meta::
-   :description: Sobre latino. Sus origenes, ¿Por que se creo?
-   :keywords: manual, documentacion, latino, sobre
+   :description: About latino. Why another programming language?
+   :keywords: manual, documentation, latino, about
 
 =============
-Sobre Latino
+About Latino
 =============
-¿Qué es Latino?
+What is Latino?
 ----------------
-Latino es un lenguaje de programación con sintaxis en Español, desarrollado en el 2015.
+*Latino* is a fully functional programming language with Spanish syntax, which starts development in 2015.
 
-Este lenguaje está inspirado en Python y Lua.
+This programming language is influenced by Python and Lua.
 
-Latino puede ser usado para:
-  * Desarrollo web (server-side),
-  * Conexiones de base de datos,
-  * Calculos matemáticas,
+Latino can be used for:
+  * Web development (server-side),
+  * Data base connection,
+  * mathematics,
   * System Scripting.
 
 ----
 
-¿Por qué se creó Latino?
--------------------------
-Este lenguaje nace de la necesidad de incrementar la educación a nivel básico y avanzado, para que niños, adolescentes y también adultos se motiven a entrar en el mundo de la programación y desarrollar aplicaciones con una sintaxis a su idioma.
-
-Al utilizar este lenguaje con sintaxis en Español se espera que de esta manera se reduzca el tiempo de aprendizaje y a su vez se maximice la comprensión al programar.
+Why another programming language?
+-----------------------------------
+*Latino* is born from the need to increase education on computer science in Latino-America; Therefore, students, as well as professionals, could get motivated to enter the world of programming and develop applications with easy-to-learn syntax.
 
 ----
 
-¿Por qué aprender Latino?
---------------------------
-*Latino* al ser un lenguaje de programación con sintaxis en Español nos provee de ciertas ventajas a la hora de programar en el.
+I code in English, why learn Latino?
+--------------------------------------
+There is no right answer to this one. If you enjoin experience new ways to programming and like challenge yourself on a new adventure, then Latino may be a wonderful experience for you.
 
-#. **Intuitivo**:
-    * Su sintaxis en Español hace más fácil la comprensión del código, reduciendo así el tiempo de aprendizaje al programar.
-#. **Fácil**:
-    * *Latino* tiene una sintaxis limpia y no requiere del uso de **punto y coma (;)** al final de cada código como en el caso de Java, Javascript, C/C++, entre otros.
-#. **Lenguaje de alto nivel**:
+However, If you are a native Spanish speaker or similar such as Portuguese or Italian, this could be a great opportunity to learn a super easy-to-learn programming language similar to your own language.
+
+----
+
+Advantages this programming language
+--------------------------------------
+*Latino* is influenced by Python and Lua and because of that, it provides some advantages at the moment of using it.
+
+#. **Easy**:
+    * *Latino* have a very clean syntax which does not require semicolon (;) at the end of each line of code which is the case of a programming language such as Java, JavaScript, C/C++, and others.
+#. **High-level programming language**:
     * Esto significa que es un lenguaje que se asemeja a la gramática que usamos para leer y escribir. Sin embargo, los `lenguajes de bajo nivel`_ son aquellos que entiende la máquina tales como el `código binario`_ o el `Lenguaje ensamblador`_.
-#. **Portátil**:
+#. **Portable**:
     * Cuando escribimos un código en *Latino* este puede ser ejecutado en cualquier otra plataforma de manera fácil y sencilla a diferencia de otros lenguajes de programación como es el caso de `Visual Basic`_ que solo opera en plataformas MS-Windows.
-#. **Código abierto**:
+#. **Open source**:
     * Cualquiera puede descargar el código fuente de *Latino*, modificarlo, extender sus librerías y aportar en su desarrollo si así lo desea.
 
 ----
