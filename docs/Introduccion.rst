@@ -1,22 +1,22 @@
 .. meta::
-   :description: Introducción a la documentación
-   :keywords: manual, documentacion, latino, Introduccion
+   :description: Introduction to documentation
+   :keywords: manual, documentation, latino, Introduction
 
 =============
-Introducción
+Introduction
 =============
 
-**¡Programa en tu idioma!**
+**Code in Spanish!**
 
 
-¿A quién está destinado?
-------------------------
-Esta documentación está destinada a todas las personas que tengan o no, conocimientos en programación. No importar si nunca has programado antes o si eres un programador experimentado con deseos de programar en tu idioma, este lenguaje de programación es para ti.
+Who is this intended for?
+-------------------------
+This documentation is intended for all people that do or don't know programming. It is not important if you have never programmed before or if you are an experienced programmer with desires to program in another language, this programming language is for you.
 
-Aprende con ejemplos
+Learn with examples
 --------------------
-Un buen ejemplo vale más que 1,000 palabras. Esta documentación tiene como objetivo poder enseñar por medio de ejemplos que sean fáciles de entender y recordar, ayudando así al aprendizaje y compresión de este lenguaje de programación llamado Latino.
+A good example is worth more than 1,000 words. This documentation's objective is to show through examples that are easy to understand and remember, helping you to learn and understand this programming language called Latino.
 
-Aprende a tu ritmo
+Learn at your pace
 ------------------
-Todo depende de ti. En esta documentación, la velocidad de aprendizaje esta a tu elección. Si estás en algún momento abrumado, tómate un descanso y vuelve a leer el material para una mejor comprensión. Siempre asegúrate de comprender todos los ejemplos antes de avanzar al siguiente capítulo.
+It is all up to you. In this documentation, the speed of learning is your choice. If you become overwhelmed, take a break and reread the material for a better understanding. Always assure yourself that you understand all of the examples before advancing to the next module.
