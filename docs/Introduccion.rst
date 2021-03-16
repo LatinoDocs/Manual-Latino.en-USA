@@ -6,7 +6,7 @@
 Introduction
 =============
 
-**Program in Spanish!**
+**Code in Spanish!**
 
 
 Who is this intended for?
