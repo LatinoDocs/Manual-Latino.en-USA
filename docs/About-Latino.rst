@@ -27,7 +27,7 @@ Why another programming language?
 
 I code in English, why learn Latino?
 --------------------------------------
-There is no right answer to this one. If you enjoin experience new ways to programming and like challenge yourself on a new adventure, then Latino may be a wonderful experience for you.
+There is no right answer to this question. If you enjoin experience new ways to programming and like challenge yourself on a new adventure, then Latino may be a wonderful experience for you.
 
 However, If you are a native Spanish speaker or similar such as Portuguese or Italian, this could be a great opportunity to learn a super easy-to-learn programming language similar to your own language.
 
