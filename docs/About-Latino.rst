@@ -7,7 +7,7 @@ About Latino
 =============
 What is Latino?
 ----------------
-*Latino* is a fully functional programming language with Spanish syntax, which starts development in 2015.
+*Latino* is a fully functional programming language with Spanish syntax, development for this project began in 2015.
 
 This programming language is influenced by Python and Lua.
 
