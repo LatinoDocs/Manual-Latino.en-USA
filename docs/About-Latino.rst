@@ -14,7 +14,7 @@ This programming language is influenced by Python and Lua.
 Latino can be used for:
   * Web development (server-side),
   * Data base connection,
-  * mathematics,
+  * Mathematics,
   * System Scripting.
 
 ----
