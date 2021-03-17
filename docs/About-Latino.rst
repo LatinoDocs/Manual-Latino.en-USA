@@ -60,21 +60,22 @@ Currently, the language is in continued development under the direction of Mevlv
 
 What are the plans for the future?
 ------------------------------------
-Latino sigue su desarrollo para poder convertirse en una herramienta esencial en la educación de Latino-América y ser una alternativa fiel en el campo laboral.
+Latino continues its development to convert itself to be an essenstial tool in the education of Latin-America and to be good alternative to use in the field of software.
 
-Para el desarrollo de este lenguaje de programación se busca ofrecer herramientas que le permita al usuario crear aplicaciones orientadas a objetos, aplicaciones móviles, videojuegos, y más.
+The development of this programming language looks to offer tools that allows the user to create object-oriented applications, mobile applications, videogames, and more!
 
-También como parte del desarrollo de este lenguaje se busca ofrecer material educativo de calidad, para la fomentación del uso de este lenguaje.
+Also as part of development this language looks to offer educational material of great quality, for the purposes of the use of this language.
 
-Como por ejemplo:
-  * Un manual fiel y de calidad,
-  * Libros de aprendizaje,
-  * Cursos en línea,
-  * Y videos tutoriales.
+For example:
+  * An accurate manual of great quality
+  * Books for learning
+  * Online course
+  * Video tutorials
 
-.. Enlaces
+.. Links
 
-.. _lenguajes de bajo nivel: https://es.wikipedia.org/wiki/Lenguaje_de_bajo_nivel
-.. _código binario: https://es.wikipedia.org/wiki/Lenguaje_de_m%C3%A1quina
-.. _Lenguaje ensamblador: https://es.wikipedia.org/wiki/Lenguaje_ensamblador
+.. _Low-level languages: https://es.wikipedia.org/wiki/Lenguaje_de_bajo_nivel
+.. _Binary code: https://es.wikipedia.org/wiki/Lenguaje_de_m%C3%A1quina
+.. _Assembly language: https://es.wikipedia.org/wiki/Lenguaje_ensamblador
 .. _Visual Basic: https://es.wikipedia.org/wiki/Visual_Basic
+
