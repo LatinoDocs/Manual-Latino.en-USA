@@ -1,13 +1,13 @@
 .. _debianLink:
 
 .. meta::
-   :description: Pasos a seguir para instalar Latino en Debian y Ubuntu
-   :keywords: instalacion, latino, debian, ubuntu, linux
+   :description: Steps to follow for installing Latino on Debian and Ubuntu
+   :keywords: installation, latino, debian, ubuntu, linux
 
 ===============
 Debian - Ubuntu
 ===============
-Para instalar Latino en Debian y Ubuntu, primero abrimos la consola (Terminal) y ejecutamos los siguientes comandos:
+To install Latino on Debian or Ubuntu , first open the console (Terminal) and execute the following commands:
 
 .. code-block:: bash
 
@@ -17,9 +17,9 @@ Para instalar Latino en Debian y Ubuntu, primero abrimos la consola (Terminal) y
    sudo apt-get install redis-server curl libgtk-3-dev
    sudo apt-get install libreadline-dev libpthread-stubs0-dev
 
-.. note:: En el código de arriba es **LIBCURL4**, no LIBCUR14
+.. note:: The code above is **LIBCURL4**, not LIBCUR14
 
-Una vez concluido esto, pasamos a instalar propiamente Latino en nuestro sistema
+Once this is over, we move on to installing Latino itself in our system
 
 .. code-block:: bash
 
@@ -31,11 +31,11 @@ Una vez concluido esto, pasamos a instalar propiamente Latino en nuestro sistema
   sudo make
   sudo make install
 
-**... y listo!** para ejecutar Latino solo escribimos en nuestra terminal el comando **latino**
+**... and ready!** to run Latino we only need to write in our terminal the **latino** command
 
-.. note:: Si en el proceso de instalar **Latino** en **Debian o Ubuntu** causa algún problema o conflicto, no dude en buscar las soluciones en el `foro Aquí`_
+.. note:: If in the process of installing **Latino** on **Debian or Ubuntu** causes any problems or conflicts, feel free to look for the solutions `here`_
 
 
-.. Enlaces
+.. Links
 
-.. _foro Aquí: https://es.stackoverflow.com/questions/tagged/latino
+.. _here: https://es.stackoverflow.com/questions/tagged/latino
