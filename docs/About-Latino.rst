@@ -74,8 +74,8 @@ For example:
 
 .. Links
 
-.. _Low-level languages: https://es.wikipedia.org/wiki/Lenguaje_de_bajo_nivel
-.. _Binary code: https://es.wikipedia.org/wiki/Lenguaje_de_m%C3%A1quina
-.. _Assembly language: https://es.wikipedia.org/wiki/Lenguaje_ensamblador
-.. _Visual Basic: https://es.wikipedia.org/wiki/Visual_Basic
+.. _Low-level languages: https://en.wikipedia.org/wiki/Low-level_programming_language
+.. _Binary code: https://en.wikipedia.org/wiki/Machine_code
+.. _Assembly language: https://en.wikipedia.org/wiki/Assembly_language
+.. _Visual Basic: https://en.wikipedia.org/wiki/Visual_Basic
 
