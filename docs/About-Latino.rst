@@ -42,7 +42,7 @@ Advantages of this programming language
 #. **High-level programming language**:
     * This means that this language looks gramatically similar to how we read and write. However, the `Low-level languages`_ are the ones that understand the machine such as `Binary code`_ or `Assembly language`_.
 #. **Portable**:
-    * When we write code in *Latino*, it can be executed on whichever other platfom in a easy and simple way. As opposed to other programming languages like the case of `Visual Basic`_ that only works on MS-Windows platforms.
+    * When we write code in *Latino*, it can be executed on whichever other platform in a easy and simple way. As opposed to other programming languages like the case of `Visual Basic`_ that only works on MS-Windows platforms.
 #. **Open source**:
     * Any person can download the source code of *Latino*, modify it, extend the existing libraries, and contribute to its development if they wish.
 
@@ -54,7 +54,7 @@ Latino is a language that has recieved the car and support of Hispanic users aro
 
 This language was created by Primitivo Roman in 2015 with the version v0.1-alpha until his version v1.0 was launched in 2017.
 
-Currently, the language is in continued development under the direction of Mevlvin Guerrero on the versions v1.1.0, v1.2.0, v1.3.0 from now on.
+Currently, the language is in continued development under the direction of Melvin Guerrero on the versions v1.1.0, v1.2.0, v1.3.0 from now on.
 
 ----
 
