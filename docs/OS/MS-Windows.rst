@@ -7,31 +7,33 @@
 ==========
 MS-Windows
 ==========
-La instalación de *Latino* en Windows no difiere de otros programas ya que el proceso de instalación es el mismo. Antes de hacer nada, descargamos la versión mas actualizada de *Latino* desde su repositorio en github y procedemos con la instalación.
 
-.. admonition:: Descargar
+The installation of *Latino* on Windows is no different from other programs, the process is the exact same. Download the latest version of Latino from the link below which is the lastest release from our github repository. 
 
-   :download:`Descargar Latino <https://github.com/lenguaje-latino/Latino/releases/latest>`  Sólo para sistemas de **64bit**
 
-.. attention:: Esta instalación fue realizada en Windows 7 de **64bit**, ya que Latino no se encuentra disponoble para los sistema de **32bit(86x)**. Para saber si usas un sistema MS-Windows de 64bit, `haz clic Aquí`_
+.. admonition:: Download
 
-1. Una vez descargada la instalación de *Latino* procedemos a instalarla dando doble-clic en ella
-2. Aceptamos las condiciones de uso
-3. De-seleccionamos la opción de crear icono en el escritorio y seleccionamos la opción **Agregar PATH**
-4. Procedemos con la instalación
-5. Finalizada la instalación, de-seleccionamos la ejecutación de *Latino*
+   :download:`Download Latino <https://github.com/lenguaje-latino/Latino/releases/latest>`  Only for **64 bit** systems
+
+.. attention::This installation was performed on Windows 7 **64bit**, as Latino is not available for **32bit(86x)** systems. To find out if you're using a 64bit MS-Windows system, `click here`_
+
+1. Once the *Latino* installation is downloaded, we proceed to install it by double-clicking it
+2. Accept the terms of use
+3. De-select the option to create icon on the desktop and select the option **Add PATH**
+4. Proceed with the installation
+5. Finalize the installation, de-select the run *Latino*
 
 ----
 
-* Una vez concluida la instalación, probamos ejecutando *Latino* desde el CMD para confirmar que este todo correctamente instalado. Para ello ejecutamos CMD en Windows y escribimos el comando **Latino** y presionamos Enter. Si todo sale bien, entonces CMD ejecutara *Latino* tal como se muestra en la imagen
+* Once the installation is complete, we test run *Latino* from the CMD to confirm that everything is properly installed. To do this we run CMD on Windows and type the command **Latino** and press Enter. If everything goes well, then CMD will run *Latino* as shown in the image.
 
 .. figure:: ../_static/_media/OS-Instalacion/Win32/installLatinoWin.gif
    :figwidth: 100%
    :target: ../_static/_media/OS-Instalacion/Win32/installLatinoWin.gif
 
-.. note:: Si en el proceso de instalar **Latino** en **MS-Windows** causa algún problema o conflicto, no dude en buscar las soluciones en el `foro Aquí`_
+.. note:: If in the process of installing Latino on MS-Windows causes any problems or conflicts, feel free to look for the solutions in the forum `here`_
 
-.. Enlaces
+.. Links
 
-.. _haz clic Aquí: https://es.ccm.net/faq/9548-como-saber-si-mi-windows-es-de-32-o-64-bits
-.. _foro Aquí: https://es.stackoverflow.com/questions/tagged/latino
+.. _click here: https://es.ccm.net/faq/9548-como-saber-si-mi-windows-es-de-32-o-64-bits
+.. _here: https://es.stackoverflow.com/questions/tagged/latino
