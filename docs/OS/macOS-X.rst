@@ -2,7 +2,7 @@
 
 .. meta::
    :description: Pasos a seguir para instalar Latino en macOS X
-   :keywords: instalacion, latino, apple, mac, macos
+   :keywords: install, Latino, Apple, Mac, MacOS
 
 =======
 macOS-X
