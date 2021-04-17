@@ -5,7 +5,7 @@
    :keywords: install, Latino, Apple, Mac, MacOS
 
 =======
-macOS-X
+macOS X
 =======
 .. admonition:: Descargar
 
