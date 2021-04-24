@@ -5,9 +5,9 @@
    :keywords: install, Latino, Apple, Mac, MacOS
 
 =======
-macOS X
+macOS-X
 =======
-.. admonition:: Descargar
+.. admonition:: Download
 
    :download:`Descargar Latino <https://github.com/lenguaje-latino/Latino/releases/latest>`  Sólo para Mac con procesador **Intel**, requiere el sistemas **Mac OS X 10.4** o posteriores.
 
