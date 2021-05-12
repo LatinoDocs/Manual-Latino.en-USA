@@ -52,7 +52,7 @@ Once this is over, we move on to installing Latino onto the machine
 
 **... and ready!** to run Latino we just write in our terminal the command **latino**
 
-.. note:: If installing **Latino** in **Fedora or CentOS** causes any problems or conflicts, feel free to look for solutions in the forum 'here'_
+.. note:: If installing **Latino** in **Fedora or CentOS** causes any problems or conflicts, feel free to look for solutions in the forum `here`_
 
 
 .. Links

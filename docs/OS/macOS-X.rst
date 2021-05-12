@@ -25,7 +25,7 @@ macOS-X
    :figwidth: 100%
    :target: ../_static/_media/OS-Instalacion/Apple/installLatinoMac.gif
 
-.. note:: If installing **Latino** on **Mac** causes any problems or conflicts, feel free to look for solutions in the forum 'here'_
+.. note:: If installing **Latino** on **Mac** causes any problems or conflicts, feel free to look for solutions in the forum `here`_
 
 .. Links
 
