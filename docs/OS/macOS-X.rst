@@ -11,7 +11,7 @@ macOS-X
 
    :download:`Download Latino <https://github.com/lenguaje-latino/Latino/releases/latest>`  For Mac with **Intel** processors only, requires **Mac OS X 10.4** or later.
 
-1. Once the Latino installation has been downloaded, proceed with the installation
+1. Once the Latino installer has been downloaded, proceed with the installation
 2. Double-click on our Latin-XXX-Darwin installation package.pkg
 3. Double-click the icon of the package that appeared on our desktop on Mac
 4. Double-click the installation package to start with the installation
@@ -25,8 +25,8 @@ macOS-X
    :figwidth: 100%
    :target: ../_static/_media/OS-Instalacion/Apple/installLatinoMac.gif
 
-.. note:: If installing **Latino** on **Mac** causes any problems or conflicts, feel free to look for solutions in the 'Forum Here'_
+.. note:: If installing **Latino** on **Mac** causes any problems or conflicts, feel free to look for solutions in the forum 'here'_
 
 .. Links
 
-.. _Forum Here: https://es.stackoverflow.com/questions/tagged/latino
+.. _here: https://es.stackoverflow.com/questions/tagged/latino
