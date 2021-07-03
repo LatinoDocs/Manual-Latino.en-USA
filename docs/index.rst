@@ -149,7 +149,7 @@ Please, if you which to help see the `collaboration guide`_.
    :maxdepth: 2
    :hidden:
    
-   Introduccion
+   Introduction
    About-Latino
  
 .. toctree::

@@ -2,31 +2,31 @@
 
 .. meta::
    :description: Pasos a seguir para instalar Latino en macOS X
-   :keywords: instalacion, latino, apple, mac, macos
+   :keywords: install, Latino, Apple, Mac, MacOS
 
 =======
 macOS-X
 =======
-.. admonition:: Descargar
+.. admonition:: Download
 
-   :download:`Descargar Latino <https://github.com/lenguaje-latino/Latino/releases/latest>`  Sólo para Mac con procesador **Intel**, requiere el sistemas **Mac OS X 10.4** o posteriores.
+   :download:`Download Latino <https://github.com/lenguaje-latino/Latino/releases/latest>`  For Mac with **Intel** processors only, requires **Mac OS X 10.4** or later.
 
-1. Una vez descargada la instalación de Latino procedemos con la instalación
-2. Doble-clic en nuestro paquete de instalación Latino-XXX-Darwin.pkg
-3. Doble-clic al volumen del paquete que apareció en nuestro escritorio en Mac
-4. Doble-clic al paquete de instalación para iniciar con la instalación
-5. Seguimos las instrucciones del paquete de instalación hasta terminar.
+1. Once the Latino installer has been downloaded, proceed with the installation
+2. Double-click on our Latino-XXX-Darwin installation package.pkg
+3. Double-click the icon of the package that appeared on our desktop on Mac
+4. Double-click the installation package to start with the installation
+5. Follow the instructions in the installation package until finished
 
 ----
 
-* Una vez terminemos con la instalación, procedemos a verificar que Latino este correctamente instalado abriendo nuestra **Terminal** y en ella escribiremos el comando **Latino**
+* Once we finish the installation, we proceed to verify that Latino is properly installed by opening our **Terminal** and in it we will write the command **Latino**
 
 .. figure:: ../_static/_media/OS-Instalacion/Apple/installLatinoMac.gif
    :figwidth: 100%
    :target: ../_static/_media/OS-Instalacion/Apple/installLatinoMac.gif
 
-.. note:: Si en el proceso de instalar **Latino** en **Mac** causa algún problema o conflicto, no dude en buscar las soluciones en el `foro Aquí`_
+.. note:: If installing **Latino** on **Mac** causes any problems or conflicts, feel free to look for solutions in the forum `here`_
 
-.. Enlaces
+.. Links
 
-.. _foro Aquí: https://es.stackoverflow.com/questions/tagged/latino
+.. _here: https://es.stackoverflow.com/questions/tagged/latino

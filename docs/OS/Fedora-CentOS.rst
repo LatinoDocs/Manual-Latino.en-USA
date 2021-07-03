@@ -1,13 +1,13 @@
 .. _fedoraLink:
 
 .. meta::
-   :description: Pasos a seguir para instalar Latino en Fedora y CentOS
-   :keywords: instalacion, latino, fedora, centos, linux
+   :description: Steps to install Latino on Fedora and CentOS
+   :keywords: installation, latino, fedora, centos, linux
 
 ================
 Fedora - CentOS
 ================
-Para instalar Latino en Fedora o CentOS, primero abrimos la consola (Terminal) y ejecutamos los siguientes comandos:
+To install Latino on Fedora or CentOS, first open the console (Terminal) and run the following commands:
 
 .. tabs::
    
@@ -38,7 +38,7 @@ Para instalar Latino en Fedora o CentOS, primero abrimos la consola (Terminal) y
          sudo dnf update
          sudo dnf install bison flex cmake gcc g++ libjansson-dev libcurl4-openssl-dev libhiredis-dev redis-server curl jansson-devel groupinstall "Development Tools" "Development Libraries" groupinstall "RPM Development Tools" redhat-lsb libgtk-3-dev gtk3-devel readline-devel
 
-Una vez concluido esto, pasamos a instalar propiamente Latino en nuestro sistema
+Once this is over, we move on to installing Latino onto the machine
 
 .. code-block:: bash
    
@@ -50,11 +50,11 @@ Una vez concluido esto, pasamos a instalar propiamente Latino en nuestro sistema
    sudo make
    sudo make install
 
-**... y listo!** para ejecutar Latino solo escribimos en nuestra terminal el comando **latino**
+**... and ready!** to run Latino we just write in our terminal the command **latino**
 
-.. note:: Si en el proceso de instalar **Latino** en **Fedora ó CentOS** causa algún problema o conflicto, no dude en buscar las soluciones en el `foro Aquí`_
+.. note:: If installing **Latino** in **Fedora or CentOS** causes any problems or conflicts, feel free to look for solutions in the forum `here`_
 
 
-.. Enlaces
+.. Links
 
-.. _foro Aquí: https://es.stackoverflow.com/questions/tagged/latino
+.. _here: https://es.stackoverflow.com/questions/tagged/latino
