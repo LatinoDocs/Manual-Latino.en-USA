@@ -8,20 +8,20 @@
 Notepad++
 ==========
 
-.. admonition:: Descargar
+.. admonition:: Download
 
-   :download:`Descargar Latino-Notepad++ <https://github.com/lenguaje-latino/latino-notepad-plugin>`
+   :download:`Download Latino-Notepad++ <https://github.com/lenguaje-latino/latino-notepad-plugin>`
 
-**Sintaxis de Latino en Notepad++**
+**Latino Syntax in Notepad++**
 
-Para poder usar la sintaxis de Latino en Notepad++, estos son los pasos a seguir una vez tengamos el programa abierto:
+In order to use Latino in Notepad ++, these are the steps to follow:
 
-* Clic en el menú Lenguaje > Definir Idioma
-* Clic en el botón **Importar**
-* Seleccionamos el archivo **Latino.xml**
-* **Reinicie** Notepad++ para que tome la configuración. (Una vez que vuelva a abrir el programa, si la ventana de Definir Idiomas continúa visible lo podemos quitar dando clic en Lenguaje > Definir Idioma)
-* Para activar el Plugin de Latino, sólo tendremos que hacer clic en Lenguaje > Latino
-* **y Listo!** Ya podremos programar en Notepad++ con sintaxis de Latino
+* Click on Language > Define Language
+* Click on **Import**
+* Select the file **Latino.xml**
+* **Restart** Notepad++ to take the settings. (Once you reopen the program, if the "Define Languages" ​​window is still visible, you can remove it by clicking on Language > Define Language)
+* To activate the Latino Plugin, you only need to click on Language > Latino
+* **and ready to go!** You can now program in Notepad ++ with Latino.
 
 .. figure:: ../_static/_media/editores-Instalacion/Notepad/Install.png
    :figwidth: 100%
@@ -41,8 +41,8 @@ Para poder usar la sintaxis de Latino en Notepad++, estos son los pasos a seguir
 
 .. container:: nota
 
-  |  **Importante**
-  |  LLegado a este punto, **reinicie Notepad++**
+  |  **Important**
+  |  At this point, **restart Notepad++**
 
 .. figure:: ../_static/_media/editores-Instalacion/Notepad/Tinar_Settings.png
    :figwidth: 100%

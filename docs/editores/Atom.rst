@@ -7,13 +7,13 @@
 =====
 Atom
 =====
-**Sintaxis de Latino en Atom**
+**Latino Syntax in Atom**
 
-Para poder usar la sintaxis de Latino en Atom, estos son los pasos a seguir una vez tengamos el programa abierto:
+In order to use Latino in Atom, these are the steps to follow:
 
-* Clic en Archivo (File) > Configuraciones (Settings)
-* Clic en Install > En el buscador escribimos **Latino** y presionamos Enter y por último **Install**
-* **y Listo!** Ya podremos programar en Atom con sintaxis de Latino
+* Click on (File) > (Settings)
+* Click on (Install) > In the search engine, write **Latino** and press Enter and finally **Install**
+* **and ready to go!** You can now program in Atom with Latino.
 
 .. figure:: ../_static/_media/editores-Instalacion/Atom/Settings.png
    :figwidth: 100%
