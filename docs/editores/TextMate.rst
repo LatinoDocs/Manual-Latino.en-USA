@@ -8,20 +8,20 @@
 TextMate
 =========
 
-.. admonition:: Descargar
+.. admonition:: Download
 
-   :download:`Descargar Latino-TextMate <https://github.com/MelvinG24/Latino-TextMate/releases/latest>`
+   :download:`Download Latino-TextMate <https://github.com/MelvinG24/Latino-TextMate/releases/latest>`
 
-**Sintaxis de Latino en Sublime Text**
+**Latino Syntax in TextMate**
 
-Para poder usar la sintaxis de Latino en TextMate, estos son los pasos a seguir una vez tengamos el programa abierto:
+In order to use the Latin syntax in TextMate, these are the steps to follow:
 
-* Descargado el archivo de **latino.tmbundle**
-* En TextMate hacemos clic en el menú **Bundles > Edit Bundles...**
-* Una vez nos abra la ventana, pasaremos a hacer clic en el menu **File > Open...**
-* Pasamos a buscar el archivo **latino.tmbundle**
-* Cambiamos el tipo de lenguaje en TextMate 
-* **y Listo!** Ya podremos programar en TextMate con sintaxis de Latino
+* Download the file **latino.tmbundle**
+* In TextMate, click on **Bundles > Edit Bundles...**
+* Once the window opens, click on **File > Open...**
+* Search for the file **latino.tmbundle**
+* Change the language type in TextMate
+* **and ready to go!** You can now program in TextMate with Latino
 
 .. figure:: ../_static/_media/editores-Instalacion/Textmate/Bundle.png
    :figwidth: 100%

@@ -19,7 +19,7 @@ To install Latino on Debian or Ubuntu , first open the console (Terminal) and ex
 
 .. note:: The code above is **LIBCURL4**, not LIBCUR14
 
-Once this is over, we move on to installing Latino itself in our system
+Once this is over, install Latino in your system
 
 .. code-block:: bash
 

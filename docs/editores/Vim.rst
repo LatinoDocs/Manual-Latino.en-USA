@@ -8,18 +8,18 @@
 Vim
 =====
 
-.. admonition:: Descargar
+.. admonition:: Download
 
-   :download:`Descargar Latino-Vim <https://github.com/primitivorm/vim-latino>`
+   :download:`Download Latino-Vim <https://github.com/primitivorm/vim-latino>`
 
-**Sintaxis de Latino en Vim**
+**Latino Syntax in Vim**
 
-Para poder usar la sintaxis de Latino en Vim, estos son los pasos a seguir:
+In order to use the Latin syntax in Vim, these are the steps to follow:
 
-* Con el **programa cerrado**, nos vamos a donde tenemos el programa instalado **C:\\Program Files (x86)\\Vim\\vim80**
-* Una vez ahí pasamos a copiar y pegar las carpetas **ftdetect**, **syntax** y **Ultisnips** en la dirección anterior **vim80**
-* Aceptamos y confirmamos cuando se nos pregunte si queremos mezclar (**merge**) los archivos.
-* **¡Y listo!** Ya podremos programar en Vim con la sintaxis de Latino
+* Having **Vim closed**, go where you have Vim installed **C:\\Program Files (x86)\\Vim\\vim80**
+* Once there, copy and paste the **ftdetect**, **syntax** and **Ultisnips** folders in the location above **vim80**
+* Accept and confirm when asked if we want to **merge** the files.
+* **and ready to go!** You can now program in Vim with Latino
 
 .. figure:: ../_static/_media/editores-Instalacion/Vim/CopiarYPegar.png
    :figwidth: 100%

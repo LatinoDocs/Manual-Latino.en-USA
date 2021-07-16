@@ -38,7 +38,7 @@ To install Latino on Fedora or CentOS, first open the console (Terminal) and run
          sudo dnf update
          sudo dnf install bison flex cmake gcc g++ libjansson-dev libcurl4-openssl-dev libhiredis-dev redis-server curl jansson-devel groupinstall "Development Tools" "Development Libraries" groupinstall "RPM Development Tools" redhat-lsb libgtk-3-dev gtk3-devel readline-devel
 
-Once this is over, we move on to installing Latino onto the machine
+Once this is over, install Latino onto the machine
 
 .. code-block:: bash
    
@@ -50,7 +50,7 @@ Once this is over, we move on to installing Latino onto the machine
    sudo make
    sudo make install
 
-**... and ready!** to run Latino we just write in our terminal the command **latino**
+**... and ready** to run Latino, just write in your terminal the command **latino**
 
 .. note:: If installing **Latino** in **Fedora or CentOS** causes any problems or conflicts, feel free to look for solutions in the forum `here`_
 

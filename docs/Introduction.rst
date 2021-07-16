@@ -15,8 +15,8 @@ This documentation is intended for all people that do or don't know programming.
 
 Learn with examples
 --------------------
-A good example is worth more than 1,000 words. This documentation's objective is to show through examples that are easy to understand and remember, helping you to learn and understand this programming language called Latino.
+A good example is worth more than 1,000 words. This documentation's goal is to show through examples that are easy to understand and remember, helping you to learn and understand this programming language called Latino.
 
 Learn at your pace
 ------------------
-It is all up to you. In this documentation, the speed of learning is your choice. If you become overwhelmed, take a break and reread the material for a better understanding. Always assure yourself that you understand all of the examples before advancing to the next module.
+It is all up to you. In this documentation, the speed of learning is your choice. If you become overwhelmed, take a break and reread the material for a better understanding. Always assure yourself that you understand all of the examples before moving forward to the next module.

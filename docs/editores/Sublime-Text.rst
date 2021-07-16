@@ -8,18 +8,18 @@
 Sublime Text
 =============
 
-.. admonition:: Descargar
+.. admonition:: Download
 
-   :download:`Descargar Latino-SublimeText <https://github.com/lenguaje-latino/latino-sublimetext-plugin>`
+   :download:`Download Latino-SublimeText <https://github.com/lenguaje-latino/latino-sublimetext-plugin>`
 
-**Sintaxis de Latino en Sublime Text**
+**Latino Syntax in Sublime Text**
 
-Para poder usar la sintaxis de Latino en Sublime Text, estos son los pasos a seguir una vez tengamos el programa abierto:
+In order to use Latino in Sublime Text, these are the steps to follow:
 
-* Clic en el menú Preferences > Browse Packages...
-* Una vez nos abra el folder, pasaremos a arrastrar y solar (o copiar) los siguientes archivos **LATINO.tmLanguage** y **LATINO.YAML-tmLanguage**
-* Reinicie Sublime Text para que tome la configuración.
-* **y Listo!** Ya podremos programar en Sublime Text con sintaxis de Latino
+* Click on Preferences > Browse Packages ...
+* Once you open the folder, you have to drag and drop (or copy) the following files **LATINO.tmLanguage** and **LATINO.YAML-tmLanguage**
+* Restart Sublime Text to take the settings.
+* **and ready to go!** You can now program in Sublime Text with Latino
 
 .. figure:: ../_static/_media/editores-Instalacion/Sublime/Packages.png
    :figwidth: 100%
