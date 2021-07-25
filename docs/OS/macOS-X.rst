@@ -19,7 +19,7 @@ macOS-X
 
 ----
 
-* Once we finish the installation, we proceed to verify that Latino is properly installed by opening our **Terminal** and in it we will write the command **Latino**
+* Once you finish the installation, proceed to verify that Latino is properly installed by opening your **Terminal** and in it, write the command **Latino**
 
 .. figure:: ../_static/_media/OS-Instalacion/Apple/installLatinoMac.gif
    :figwidth: 100%

@@ -7,13 +7,13 @@
 ========
 VS Code
 ========
-**Sintaxis de Latino en VS Code**
+**Latino Syntax in VS Code**
 
-Para poder usar la sintaxis de Latino en VS Code, estos son los pasos a seguir una vez tengamos el programa abierto:
+In order to use Latino in VS Code, these are the steps to follow:
 
-* Clic en Extensiones o precionando su atajo de teclado **Ctrl+Shift+X**
-* En el buscador escribimos **Latino** y presionamos Enter y por último **Install**
-* **y Listo!** Ya podremos programar en VS Code con sintaxis de Latino
+* Click on Extensions or press the keyboard shortcut **Ctrl+Shift+X**
+* In the search bar, type **Latino** and press Enter, then **Install**
+* **and ready to go!** You can now program in VS Code with Latino
 
 .. figure:: ../_static/_media/editores-Instalacion/VSCode/VSCode-Capture.png
    :figwidth: 100%
