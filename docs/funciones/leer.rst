@@ -7,9 +7,9 @@
 ============
 leer( )
 ============
-La función **leer\( \)** escanea las teclas numéricas y alfanuméricas digitadas por el usuario, hasta que este presione la tecla **enter**.
+The **leer\( \)** function scans the numeric and alphanumeric keys entered by the user, until they press the **Enter** key .
 
-Es recomendable asignar este comando a una variable, ya que se puede manipular con mayor facilidad cualquier dato digitado por el usuario.
+It is recommended to assign this command to a variable, since any data entered by the user can be manipulated more easily.
 
 .. code-block:: bash
    
@@ -17,6 +17,6 @@ Es recomendable asignar este comando a una variable, ya que se puede manipular c
 
 .. raw:: html
 
-   <pre><code class="language-latino line-numbers">escribir("¿Cual es su nombre?")
+   <pre><code class="language-latino line-numbers">escribir("What's your name?")
    x = leer()
-   escribir("Hola "..x)     //Devolverá "Hola (Mas el nombre del usuario)"</code></pre>
+   escribir("Hi "..x)     //Returns "Hi (User name)"</code></pre>

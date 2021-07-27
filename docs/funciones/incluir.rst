@@ -7,38 +7,38 @@
 ============
 incluir( )
 ============
-La función **incluir\( \)** nos permite importar **módulos** y **librerías** a nuestro proyecto.
+The **incluir\( \)** function allows you to import **modules** and **libraries** in your project.
 
-Cuando escribimos el módulo o librería, este debe ser escrito entre **comillas** y no es necesario escribir su extensión.
+When we write the module or library, it must be written in **quotes** and it is not necessary to write its file extension.
 
-**Ejemplo de sintaxis**
+**Syntax**
 
  .. raw:: html
     
-    <pre><code class="language-latino line-numbers">incluir("librería")              //No requieren una variable
+    <pre><code class="language-latino line-numbers">incluir("librería")              //It doesn't require a variable
     
-    variable = incluir("módulo")     //Requieren ser asignadas a una variable</code></pre>
+    variable = incluir("módulo")     //Require to be assigned to a variable</code></pre>
 
-.. note:: Esta función solo puede incluir archivos con extensión **\.lat** o archivos de librerías que hayan sido escritas para Latino y que usen su API.
+.. note:: This function can only include files with a **.lat** extension or library files that have been written for Latino and that use its API.
 
 ----
 
-Subdirectorio
+Subdirectory
 -----------------
-Con el comando **incluir\( \)**, para especificar archivos en subdirectorios varia dependiendo del sistema operativo.
+With **incluir\( \)**, specifying files in subdirectories varies depending on the operating system.
 
-En MS-Windows, para especificar un archivo en un subdirectorio usamos **\\**.
+on MS-Windows, to specify a file in a subdirectory use  **\\**.
 
-En Linux y Mac, para especificar un archivo en un subdirectorio usamos **\/**.
+On Linux and Mac, to specify a file in a subdirectory use **\/**.
 
-**Ejemplo**
+**Example**
 
-Para añadir un archivo del siguiente subdirectorio **carpeta/modulo** lo especificamos de la siguiente manera:
+To add a file from the following **folder / module** subdirectory, specify it as follows:
 
 .. code-block:: bash
    
-   incluir("carpeta\modulo")     //MS-Windows
-   incluir("carpeta/modulo")     //Unix
+   incluir("folder\module")     //MS-Windows
+   incluir("folder/module")     //Unix
 
 .. Incluir librerías
 .. ------------------

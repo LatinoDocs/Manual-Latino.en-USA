@@ -7,16 +7,16 @@
 ==============================
 imprimir, escribir, poner( )
 ==============================
-Las funciones **imprimir\( \)**, **escribir\( \)**, y **poner\( \)** escriben en pantalla la cadena, número, o expresión asignadas en ellas.
+The **imprimir\( \)**, **escribir\( \)**, y **poner\( \)** functions write to the screen the string, number, or expression assigned to them.
 
-Estas funciones **imprimir\( \)**, **escribir\( \)**, y **poner\( \)** son literalmente la misma función, pero con distintos nombres.
+These **imprimir\( \)**, **escribir\( \)**, and **poner\( \)** functions are literally the same function, but with different names.
 
-La razón de la amplia variedad de nombres que recibe esta función es por las diferentes maneras que existen en otros lenguajes de programación para realizar la misma función. Ejemplo: algunos lenguajes utilizan el comando **print** y otros el comando **put**.
+The reason for the wide variety of names that this function receives is because of the different ways that exist in other programming languages ​​to perform the same function. Example: some languages ​​use **print** and others **put**.
 
-**Ejemplo de función**
+**Example**
 
 .. raw:: html
 
-   <pre><code class="language-latino line-numbers">imprimir("Hola mundo")                        //Devolverá "Hola mundo"
-   escribir("Latino es fenomenal")               //Devolverá "Latino es fenomenal"
-   poner("Un abrazo psicologico, chao chao")     //Devolverá "Un abrazo psicologico, chao chao"</code></pre>
+   <pre><code class="language-latino line-numbers">imprimir("Hello World")                        //Returns "Hello World"
+   escribir("Latino is cool")               //Returns "Latino is cool"
+   poner("A psychological hug, bye bye")     //Returns "A psychological hug, bye bye"</code></pre>
