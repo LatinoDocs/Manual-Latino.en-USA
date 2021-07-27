@@ -223,6 +223,6 @@ To start with each of the examples, you will have to open the terminal of your O
          
          Enter a letter
          a
-         a, es un vocal
+         a, is a vowel
       
       .. image:: ../_static/_media/ejemplos/miPrimerPrograma/caracterVocaloNo.gif
