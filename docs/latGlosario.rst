@@ -5,16 +5,16 @@
    :keywords: manual, documentacion, latino, sobre
 
 =========
-Glosario
+Glossary
 =========
 
 .. container:: nota
 
-   | Glosario provisional
-   | El contenido de este se irá actualizando periódicamente.
+   | Temporary glossary 
+   | The content of this will be updated periodically.
 
 
-Palabras reservadas
+Reserved keywords
 --------------------
 * caso
 * cierto | verdadero
@@ -41,7 +41,7 @@ Palabras reservadas
 * sino
 * tipo
 
-Librerías
+Libraries
 ----------
 * archivo
 * cadena

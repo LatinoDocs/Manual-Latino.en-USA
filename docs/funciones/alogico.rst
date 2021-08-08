@@ -7,23 +7,23 @@
 ============
 alogico( )
 ============
-La función **alogico\( \)** convierte los números y textos a un valor lógico (**verdadero** o **falso**).
+The **alogico\( \)** function converts the numbers and texts to a logical value (**verdadero** o **falso**).
 
-Cualquier número diferente a **0**, ya sea un número positivo, negativo o decimal, dará **verdadero**.
+Any number other than **0**, whether it is a positive, negative, or decimal number, will return **verdadero** .
 
-De igual manera cualquier texto aun si este es un espacio en blanco devolverá **verdadero**.
+In the same way any text even if this is a blank space will return **verdadero**.
 
-La función **alogico\( \)** devolverá un valor **falso** solo si el número es **0**, si no hay nada en las comillas, o si asignamos un valor **nulo**.
+The **alogico\( \)** function will return **falso** only if the number is **0**, if there is nothing in the quotes, or if we assign a **nulo** value.
 
-**Ejemplo de función**
+**Example**
 
 .. raw:: html
 
-   <pre><code class="language-latino line-numbers">escribir(alogico(1))             //Devolverá "verdadero"
-   escribir(alogico(-1))            //Devolverá "verdadero"
-   escribir(alogico(3.14))          //Devolverá "verdadero"
-   escribir(alogico("Hola"))        //Devolverá "verdadero"
-   escribir(alogico(" "))           //Devolverá "verdadero" (al tener un espacio en blanco, es verdadero)
-   escribir(alogico("0"))           //Devolverá "falso"
-   escribir(alogico(nulo))          //Devolverá "falso"
-   escribir(alogico(""))            //Devolverá "falso"</code></pre>
+   <pre><code class="language-latino line-numbers">escribir(alogico(1))             //Returns "verdadero"
+   escribir(alogico(-1))            //Returns "verdadero"
+   escribir(alogico(3.14))          //Returns "verdadero"
+   escribir(alogico("Hola"))        //Returns "verdadero"
+   escribir(alogico(" "))           //Returns "verdadero" (having a blank space makes it "verdadero")
+   escribir(alogico("0"))           //Returns "falso"
+   escribir(alogico(nulo))          //Returns "falso"
+   escribir(alogico(""))            //Returns "falso"</code></pre>

@@ -7,39 +7,38 @@
 ============
 acadena( )
 ============
-La función **acadena\( \)** convierte los números a cadenas(textos).
+The function **acadena\( \)** converts numbers to strings(text).
 
-Esta función puede ser utilizada en cualquier tipo de números, decimales, variables, o expresiones.
+This function can be used in any type of numbers, decimals, variables, or expressions.
 
 .. code-block:: bash
 
-   acadena(x)            //Devolverá como texto el valor numérico de la variable X
-   acadena(123)          //Devolverá como texto el valor numérico 123
-   acadena(100 + 23)     //Devolverá como texto el resultado de la expresión
+   acadena(x)            //Returns as text the numeric value of the variable X
+   acadena(123)          //Returns as text the numeric value 123
+   acadena(100 + 23)     //Returns as text the result of the expression
 
-**Ejemplo de función**
+**Example**
 
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">x = 123
    y = acadena(x)
 
-   escribir(x)           //Devolverá 123
-   escribir(y)           //Devolverá 123
+   escribir(x)           //Returns 123
+   escribir(y)           //Returns 123
    
-   /*Aunque visualmente parezca que no ha cambiado nada
-   si usamos la función tipo() veremos la diferencia*/
+   /*Although visually it seems that nothing has changed if you use the tipo() function, you will see the difference*/
    
-   escribir(tipo(x))     //Devolverá decimal
-   escribir(tipo(y))     //Devolverá cadena</code></pre>
+   escribir(tipo(x))     //Returns float 
+   escribir(tipo(y))     //Returns string</code></pre>
 
 ----
 
-Convertir buleanos a cadenas(textos)
+Convert booleans to srings(textos)
 -------------------------------------
-La función **acadena\( \)** se puede usar para convertir valores buleanos(lógicos) en cadenas(textos).
+The **acadena\( \)** function can be used to convert boolean (logical) values ​​to strings (texts).
 
 .. raw:: html
 
-   <pre><code class="language-latino line-numbers">acadena(verdadero)     //Devolverá "verdadero"
-   acadena(falso)         //Devolverá "falso"</code></pre>
+   <pre><code class="language-latino line-numbers">acadena(verdadero)     //Returns "verdadero"
+   acadena(falso)         //Returns "falso"</code></pre>

@@ -7,26 +7,26 @@
 ============
 tipo( )
 ============
-La función **tipo\( \)** devuelve el tipo de valor almacenado en una variable o memoria.
+The **tipo\( \)** function returns the type of value stored in a variable or memory.
 
-Los valores que esta función nos puede devolver lo podemos encontrar en :ref:`tipos de datos <tiposDeDatosLink>`.
+The values ​​that this function can return can be found in :ref:`data types <tiposDeDatosLink>`.
 
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">x = 123
-   escribir(tipo(x))     //Devolverá decimal
+   escribir(tipo(x))     //Returns decimal
 
-   x = "Hola Mundo"
-   escribir(tipo(x))     //Devolverá cadena
+   x = "Hello world"
+   escribir(tipo(x))     //Returns cadena
 
-   x = ["Hola", "mundo"]
-   escribir(tipo(x))     //Devolverá lista
+   x = ["Hello", "world"]
+   escribir(tipo(x))     //Returns lista
 
-   x = {"Mensaje":"Hola", "Continuacion":"mundo"}
-   escribir(tipo(x))     //Devolverá diccionario
+   x = {"Message":"Hello", "Planet":"world"}
+   escribir(tipo(x))     //Returns diccionario
    
    x = verdadero
-   escribir(tipo(x))     //Devolverá logico
+   escribir(tipo(x))     //Returns logico
    
    x = nulo
-   escribir(tipo(x))     //Devolverá nulo</code></pre>
+   escribir(tipo(x))     //Returns nulo</code></pre>

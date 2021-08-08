@@ -7,37 +7,37 @@
 =============
 imprimirf( )
 =============
-El comando **imprimirf\( \)** esta inspirado en el comando **printf\( \)** en C, pero el comando en Latino es mas limitado.
+The **imprimirf\( \)** function is inspired by the command **printf\( \)** in C, but the command is more limited in Latino.
 
-Este comando en esencia es similar a los comandos **imprimir\( \)**, **escribir\( \)** y **poner\( \)** pero con algunas diferencias.
+This command is essentially similar to **imprimir\( \)**, **escribir\( \)** and **poner\( \)** but with some differences.
 
-El comando **imprimirf\( \)** requiere del carácter **\\n** al final de cada cadena para poner **escribir** en pantalla, caso que NO se da con los otros comandos.
+The command **imprimirf\( \)** requires **\\n** at the end of each string to **escribir** on the screen, which is NOT the case with the other commands.
 
-Este comando permite **dar formato** a un carácter o valor ASCII.
+This command allows you to **format** an ASCII character or value.
 
-El comando **imprimirf\( \)** opera con los siguientes formatos:
+The command **imprimirf\( \)** operates with the following format:
 
-  * **\%c**, convierte a un carácter el valor ASCII.
-  * **\%i**, convierte a un número enteros.
-  * **\%f**, convierte a un número decimal.
-  * **\%d**, convierte a un número.
-  * **\%o**, convierte a un valor octal.
-  * **\%x**, convierte a un hexadecimal.
-  * **\%e**, convierte a una expresión científica.
-  * **\%s**, convierte a carácter o ha una cadena de texto.
-  * **\%%**, Devuelve el simbolo de **porcentage (\%)**.
+  * **\%c**, Converts to a character an ASCII value.
+  * **\%i**, Converts to an integer.
+  * **\%f**, Converts to a float.
+  * **\%d**, Converts to a number.
+  * **\%o**, Converts to an octal number
+  * **\%x**, Converts to a hexadecimal.
+  * **\%e**, Converts to a scientific expression.
+  * **\%s**, Converts to a character or a string.
+  * **\%%**, Returns the **porcentage (\%)** sign.
 
 .. raw:: html
 
-   <pre><code class="language-latino line-numbers">x = "hola"
-   escribir(cadena.formato("%c",x))                //Devolverá h
-   escribir(cadena.formato("%i",x))                //Devolverá 104
-   escribir(cadena.formato("%f",x))                //Devolverá 104.000000
-   escribir(cadena.formato("%d",x))                //Devolverá 104
-   escribir(cadena.formato("%o",x))                //Devolverá 150
-   escribir(cadena.formato("%x",x))                //Devolverá 68
-   escribir(cadena.formato("%e",x))                //Devolverá 5.556763e-307
-   escribir(cadena.formato("%s",x))                //Devolverá hola
-   escribir(cadena.formato("%%",x))                //Devolverá %
-   escribir(cadena.formato("%c",75))               //Devolverá K
-   escribir(cadena.formato("%c%c%c",75,76,77))     //Devolverá KLM</code></pre>
+   <pre><code class="language-latino line-numbers">x = "hello"
+   escribir(cadena.formato("%c",x))                //Returns h
+   escribir(cadena.formato("%i",x))                //Returns 104
+   escribir(cadena.formato("%f",x))                //Returns 104.000000
+   escribir(cadena.formato("%d",x))                //Returns 104
+   escribir(cadena.formato("%o",x))                //Returns 150
+   escribir(cadena.formato("%x",x))                //Returns 68
+   escribir(cadena.formato("%e",x))                //Returns 5.556763e-307
+   escribir(cadena.formato("%s",x))                //Returns hello
+   escribir(cadena.formato("%%",x))                //Returns %
+   escribir(cadena.formato("%c",75))               //Returns K
+   escribir(cadena.formato("%c%c%c",75,76,77))     //Returns KLM</code></pre>

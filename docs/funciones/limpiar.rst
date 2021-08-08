@@ -7,9 +7,9 @@
 ============
 limpiar( )
 ============
-La función **limpiar\( \)** limpia la pantalla de la consola.
+The **limpiar\( \)** function clears the console screen.
 
-Esta función es exactamente igual como si usáramos **cls** en el CMD de MS-Windows o como utilizar **clear** en sistemas basados en UNIX.
+This function is exactly the same as if you use **cls** on MS-Windows CMD or **clear** in UNIX-based systems.
 
 .. code-block:: bash
    
@@ -17,6 +17,6 @@ Esta función es exactamente igual como si usáramos **cls** en el CMD de MS-Win
 
 .. raw:: html
 
-   <pre><code class="language-latino line-numbers">escribir("Hola Mundo")
+   <pre><code class="language-latino line-numbers">escribir("Hello World")
    limpiar()
-   escribir("El texto anterior se a eliminado")</code></pre>
+   escribir("The previous text was deleted")</code></pre>

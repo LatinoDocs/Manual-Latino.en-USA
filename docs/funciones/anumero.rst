@@ -7,34 +7,34 @@
 ============
 anumero( )
 ============
-La función **anumero\( \)** convierte las cadenas(textos) a números.
+The **anumero\( \)** function convers strings (text) to numbers.
 
-Las comillas sin caracteres, ejemplo **\'\'** devolverá un valor **Nulo** al igual que el números **0**.
+Quotation marks without characters, such as **\'\'** will return **Nulo** the same as the number **0**.
 
-Los espacios en blanco, ejemplo **\' \'** o cualquier número que tengo un espacio en blanco, ejemplo **\'7 \'** estos serán convertidos su valor de `código ALT`_.
+Blanks **\' \'** or whatever number that has a blank, such as **\'7 \'** will be converted to `ALT Code`_.
 
-**Ejemplo de función**
+**Example**
 
 .. raw:: html
 
-   <pre><code class="language-latino line-numbers">escribir(anumero("3.14"))     //Devolverá 3.14
-   escribir(anumero(""))         //Devolverá nulo
-   escribir(anumero("0"))        //Devolverá nulo
-   escribir(anumero(" "))        //Devolverá 32 (Esto correspondo al código ALT)
-   escribir(anumero("9"))        //Devolverá 9
-   escribir(anumero("9 "))       //Devolverá 57(Como tiene un espacio devolverá el código ALT)</code></pre>
+   <pre><code class="language-latino line-numbers">escribir(anumero("3.14"))     //Returns 3.14
+   escribir(anumero(""))         //Returns nulo
+   escribir(anumero("0"))        //Returns nulo
+   escribir(anumero(" "))        //Returns 32 (This is the same in ALT Code)
+   escribir(anumero("9"))        //Returns 9
+   escribir(anumero("9 "))       //Returns 57(Since it has a blankm it returns its ALT Code)</code></pre>
 
 ----
 
-Convertir buleanos a número
+Convert booleans to numbers
 -----------------------------
-La función **anumero\( \)** se puede usar para convertir valores buleanos(lógicos) en un valor numérico.
+The **anumero\( \)** function can be used to convert boolean (logical) values ​​to a numeric value.
 
 .. raw:: html
 
-   <pre><code class="language-latino line-numbers">anumero(verdadero)     //Devolverá 1
-   anumero(falso)         //Devolverá "nulo" (no retorna 0, ya que su valor es representado por un valor nulo)</code></pre>
+   <pre><code class="language-latino line-numbers">anumero(verdadero)     //Returns 1
+   anumero(falso)         //Returns "nulo" (It doesn't return 0, because its value is represented by a null)</code></pre>
 
 .. Enlaces
 
-.. _código ALT: https://en.wikipedia.org/wiki/Alt_code
+.. _ALT Code: https://en.wikipedia.org/wiki/Alt_code

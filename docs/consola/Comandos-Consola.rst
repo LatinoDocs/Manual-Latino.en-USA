@@ -5,38 +5,38 @@
    :keywords: manual, documentacion, latino, consola, comando
 
 =====================
-Comandos de Consola
+Console commands
 =====================
-Los comandos de consola son algunas funciones que podemos efectuar con Latino antes de ejecutarlo en nuestra consola o terminal.
+The console commands are some functions that we can carry out with Latino before executing it in our console or terminal.
 
-A continuación se presentará una tabla con los comandos de consola disponibles en Latino.
+Below is a table with the console commands available in Latino.
 
 +--------------+--------------------------------------------+
-| Comando      | Descripción                                |
+| Command      | Description                                |
 +==============+============================================+
-| -a           | Muestra la ayuda de Latino en la terminal  |
-+--------------+                                            |
+| -a           | Show Latino help in Terminal               |
++--------------+                                              |
 | \- \-ayuda   |                                            |
-+--------------+                                            |
++--------------+                                              |
 | \- \-help    |                                            |
 +--------------+--------------------------------------------+
-| -e           | Ejecuta un comando con código de Latino    |
+| -e           | Run a command with Latino                  |
 +--------------+--------------------------------------------+
-| -v           | Muestra la versión instalada de Latino     |
-+--------------+                                            |
+| -v           | Show the Latino installed version         |
++--------------+                                              |
 | \- \-version |                                            |
 +--------------+--------------------------------------------+
-| Ctrl + C     | Cierra el programa de Latino en la consola |
+| Ctrl + C     | Close Latino on the console               |
 +--------------+--------------------------------------------+
 
 ----
 
-Comandos
+Commands
 ---------
 
-Mostrar menú de ayuda
+Show the Help menu
 ++++++++++++++++++++++
-El menú de ayuda de Latino lo podemos ejecutar con el siguiente comando:
+The help menu can be executed with the following:
 
 .. code-block:: bash
    
@@ -46,19 +46,19 @@ El menú de ayuda de Latino lo podemos ejecutar con el siguiente comando:
 
 .. image:: ../_static/_media/comandos-Consola/latinoAyudaTerminal.gif
 
-Ejecutar un comando
+Run a command
 +++++++++++++++++++++
-Para ejecutar un comando con código de Latino en la consola usamos el siguiente comando:
+To run a command with Latino in the console, you can use the following:
 
 .. code-block:: bash
    
-   latino -e *código de Latino*
+   latino -e *Latino code*
 
 .. image:: ../_static/_media/comandos-Consola/latinoEjecutarTerminal.gif
 
-Ver versión de Latino
+Show Latino version
 ++++++++++++++++++++++
-Para mostrar la versión de Latino que se tiene instalada en nuestro sistema, podemos usar el siguiente comando:
+To show the version of Latino that is installed on our system, you can use the following command:
 
 .. code-block:: bash
    
@@ -69,14 +69,15 @@ Para mostrar la versión de Latino que se tiene instalada en nuestro sistema, po
 
 .. _atajoConsolaLink:
 
-Cerrar programa de Latino
+Close Latino in the console
 ++++++++++++++++++++++++++
-Si después de iniciar o correr Latino en nuestra consola deseamos salir o cerrar el programa, podemos presionar la siguiente combinación de teclado:
+If after starting Latino on your console, you want to close the program, you can press the following keyboard combination:
+
 
 .. code-block:: bash
    
    Ctrl + C
 
-Podemos también salir de Latino escribiendo el comando explicado :ref:`aquí <sisSalirLink>`.
+You can also exit Latino by running the command explained :ref:`here <sisSalirLink>`.
 
 .. image:: ../_static/_media/comandos-Consola/latinoSalirTerminal.gif
