@@ -19,7 +19,7 @@ Welcome to the documentation of Latino_, the first functional programing languag
   `Melvin Guerrero`_
 
 :Translator:
-  `Melvin Guerrero`_, `Jesse De Lira`_
+  `Melvin Guerrero`_, `Jesse De Lira`_, `David Salomón`_
 
 :Version:
   `Latino 1.3.0`_
@@ -137,6 +137,7 @@ Please, if you which to help see the `collaboration guide`_.
 .. _Latino: https://lenguajelatino.org
 .. _Melvin Guerrero: https://melvinguerrero.blogspot.com
 .. _Jesse De Lira: https://github.com/jessedelira
+.. _David Salomón: https://david-salomon.com
 .. _Latino 1.3.0: https://github.com/lenguaje-latino/Latino/releases/tag/v1.3.0
 .. _Latino API: https://manuallatinoapi.blogspot.com
 .. _collaboration guide: https://github.com/LatinoDocs/Manual-Latino.en-USA/blob/master/.readme/CONTRIBUTING.md
