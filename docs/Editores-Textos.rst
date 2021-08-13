@@ -3,11 +3,11 @@
    :keywords: instalacion, latino, editor
 
 ====================
-Editores de textos
+Text Editors
 ====================
-Los editores de textos facilitan la tarea de programar al marcar con diferentes colores los comandos, variables, funciones y también nos ayuda al generar snippets en nuestro código.
+Text editors facilitate the task of programming by coloring the commands, variables, functions and also help you to generate snippets in your code. 
 
-Existen una gran variedad de editores de textos compatibles con Latino.
+There are a wide variety of Latino compatible text editors.
 
 :ref:`Atom <atomLink>`
 
