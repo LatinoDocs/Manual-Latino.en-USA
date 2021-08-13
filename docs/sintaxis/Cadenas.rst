@@ -5,316 +5,313 @@
    :keywords: manual, documentacion, latino, sintaxis, datos, cadenas, string, texto
 
 ==================
-Cadenas (Strings)
+Strings
 ==================
-Las **cadenas** (*strings* por su nombre en Ingles) son utilizadas para almacenar y manipular textos.
+**Strings** are used to store and manipulate text.
 
-Estas **cadenas** están rodeadas por **comillas simples ( \\' )** o **comillas dobles ( \' )**.
+**Strings** are surrounded by **single quotes ( \\' )** or **double quotes ( \' )**.
 
 .. code-block:: bash
    
-   escribir("hola")
-   escribir('hola')
+   escribir("hello")
+   escribir('hello')
 
-Se pueden usar comillas dentro de una cadena, siempre y cuando estas no coincidan con las comillas que las rodean.
+Quotation marks can be used within a string, as long as they do not match the surrounding quotation marks.
 
 .. raw:: html
 
-   <pre><code class="language-latino line-numbers">escribir("El se llama 'Melvin'")     //Devolverá: El se llama 'Melvin'
-   escribir('El se llama "Melvin"')     //Devolverá: El se llama "Melvin"</code></pre>
+   <pre><code class="language-latino line-numbers">escribir("His name is 'Melvin'")     //Returns: His name is 'Melvin'
+   escribir('His name is "Melvin"')     //Returns: His name is "Melvin"</code></pre>
 
-.. note:: Latino dispone de una librería para el manejo de cadenas, :ref:`aquí <cadenalibLink>`.
+.. note:: Latino has a library for managing strings, :ref:`here <cadenalibLink>`.
 
 ----
 
-Concatenar cadenas(textos)
+Concatenate strings (texts)
 ---------------------------
-Para concatenar o unir textos en Latino se hace uso de **doble puntos (..)**, que a diferencia de otros lenguajes de programación los cuales usan el signo de **más (+)**.
+To concatenate or join texts in Latino, **double periods (..)** are used , which unlike other programming languages ​​which use the plus sign **(+)**.
 
-El **doble punto (..)** no solo es útil para unir textos, también números.
+The **double period (..)** mark is not only useful to join texts, but also numbers.
 
 .. raw:: html
 
-   <pre><code class="language-latino line-numbers">x = "Hola mundo"
+   <pre><code class="language-latino line-numbers">x = "Hello World"
    y = ", Latino"
-   escribir(x..y)     //Devolverá Hola mundo, Latino
-   escribir(1..2)     //Devolverá 12</code></pre>
+   escribir(x..y)     //Returns Hello World, Latino
+   escribir(1..2)     //Returns 12</code></pre>
 
 ----
 
 .. _cCaracterEspLink:
 
-Caracteres especiales
+Special characters
 ----------------------
-Las cadenas al estar escritas entre comillas, se pudiera producir un error con la siguiente sintaxis:
+If strings are written in quotes, an error could occur with the following syntax:
 
 .. raw:: html
 
-   <pre><code class="language-latino line-numbers">escribir("Hola mundo, "Latino!" ¿Cómo estan?")</code></pre>
+   <pre><code class="language-latino line-numbers">escribir("Hello World, "Latino!" How are you?")</code></pre>
 
-En el ejemplo anterior, La oración estaría cortada hasta 'Hola mundo,' y Latino pensaría que el nombre **Latino!** es una variable, produciendo así un error de sintaxis.
+In the example above, the sentence would be cut to "Hello world," and Latino would think the name **Latino!** is a variable, thus producing a syntax error.
 
-La solución a este problema sería usar una **barra invertida ( \\ )**.
+The solution to this problem would be to use a **backslash (\)** .
 
-La **barra invertida ( \\ )** convierte los caracteres especiales en textos:
+The **backslash (\)** converts special characters to text:
 
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">/*
-   Devolverá:
-   Hola mundo, "Latino" ¿Cómo estan?
+   Returns:
+   Hello World, "Latino" How are you?
    */
    
-   escribir("Hola mundo, \"Latino!\" ¿Cómo estan?")</code></pre>
+   escribir("Hello World, \"Latino!\" How are you?")</code></pre>
 
-Además de usar la barra invertida para escribir textos, también es usada para indicar funciones.
+In addition to using the backslash to write texts, it is also used to indicate functions.
 
-A continuación se presentan los caracteres disponibles para usar en Latino.
+Below are the characters available for use in Latin.
 
-Tabla de caracteres:
+Character table
 +++++++++++++++++++++
 +----------+-------------------------------------------------+
-| Carácter | Descripción                                     |
+| Character| Description                                     |
 +==========+=================================================+
-| \\ \'    | Comillas dobles                                 |
+| \\ \'    | Doubles quotes                                  |
 +----------+-------------------------------------------------+
-| \\ \\'   | Comillas simples                                |
+| \\ \\'   | Single quotes                                   |
 +----------+-------------------------------------------------+
-| \\n      | Nueva línea                                     |
+| \\n      | New line                                        |
 +----------+-------------------------------------------------+
-| \\r      | Retorno de carro (Carriage return)              |
+| \\r      | Carriage return                                 |
 +----------+-------------------------------------------------+
-| \\b      | Remover (Backspace)                             |
+| \\b      | Backspace                                       |
 +----------+-------------------------------------------------+
-| \\t      | Tabulación horizontal                           |
+| \\t      | Horizontal tab                                  |
 +----------+-------------------------------------------------+
-| \\v      | Tabulación vertical                             |
+| \\v      | Vertical tab                                    |
 +----------+-------------------------------------------------+
-| \\f      | Alimentación de formulario (Form feed)          |
+| \\f      | Form feed                                       |
 +----------+-------------------------------------------------+
-| \\a      | Alerta (Beep)                                   |
+| \\a      | Beep                                            |
 +----------+-------------------------------------------------+
-| \\0      | Carácter nulo                                   |
+| \\0      | Null character                                  |
 +----------+-------------------------------------------------+
-| \\nnn    | Carácter con valor octal nnn                    |
+| \\nnn    | Character with octal value                      |
 +----------+-------------------------------------------------+
 
-.. note:: Los caracteres especiales descritos en la tabla superior fueron originalmente diseñados para el uso de `máquina de escribir`_, teletipo_, y `máquina de fax`_.
+.. note:: Special characters described in the table above were originally designed for `typewriter`_, teletype_, and `fax`_.
 
-Comillas dobles
+ Double quotation marks
 ****************
-Carácter a usar: **\\ \'**
+Character to use: **\\ \'**
 
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">/*
-   Devolverá:
-   Hola "mundo"
+   Returns:
+   Hello "world"
    */
    
-   escribir("Hola \"mundo\"")</code></pre>
+   escribir("Hello \"world\"")</code></pre>
 
-Comillas simples
+ Single quotes
 *****************
-Carácter a usar: **\\ \\'**
+Character to use: **\\ \\'**
 
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">/*
-   Devolverá:
-   Hola 'mundo'
+   Returns:
+   Hello 'world'
    */
    
-   escribir('Hola \'mundo\'')</code></pre>
+   escribir('Hello \'world\'')</code></pre>
 
-Nueva línea
+New line
 ************
-Carácter a usar: **\\n**
+Character to use: **\\n**
 
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">/*
-   Devolverá:
-   Hola
-   mundo
+   Returns:
+   Hello
+   world
    */
 
-   escribir("Hola\nmundo")</code></pre>
+   escribir("Hello\nworld")</code></pre>
 
-Retorno de carro
+Carriage return
 *****************
-Carácter a usar: **\\r**
+Character to use: **\\r**
 
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">/*
-   A diferencia de \n, \r no crea una nueva línea
-   sino que devuelve el cursor al punto de partida
-   y sigue escribiendo. Esto proveca una sobre escritura.
+   Unlike \n, \r does not create a new line but returns the cursor to the starting point and continues typing. This makes an overwriting.
 
-   Devolverá:
+   Returns:
    Latinoundo,
    */
 
-   escribir("Hola mundo,\rLatino")</code></pre>
+   escribir("Hello World,\rLatino")</code></pre>
 
-.. note:: Para saber la diferencia entre **\\n** y **\\r** ver enlace aquí_
+.. note:: To know the difference between **\\n** and **\\r** click `here`_
 
-Remover
+Backspace
 ********
-Carácter a usar: **\\b**
+Character to use: **\\b**
 
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">/*
-   Este comando elimina el carácter previo a este.
+   This command removes the previous character.
 
-   Devolverá:
-   HolMundo
+   Returns:
+   Holworld
    */
 
-   escribir("Hola\bmundo")</code></pre>
+   escribir("Hello\bworld")</code></pre>
 
-Tabulación horizontal
+Horizontal tab
 **********************
-Carácter a usar: **\\t**
+Character to use: **\\t**
 
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">/*
-   Devolverá:
-   Hola    mundo
+   Returns:
+   Hello    world
    */
 
-   escribir("Hola\tmundo")</code></pre>
+   escribir("Hello\tworld")</code></pre>
 
-Alerta
+Beep
 *******
-Carácter a usar: **\\a**
+Character to use: **\\a**
 
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">/*
-   Hará sonar el Beep de la PC y Devolverá:
-   Hola mundo
+   It will sound the PC Beep and returns:
+   Hello World
    */
 
-   escribir("Hola mundo\a")</code></pre>
+   escribir("Hello World\a")</code></pre>
 
-Carácter nulo
+Null character
 **************
-Carácter a usar: **\\0 \*(cero)**
+Character to use: **\\0 \*(zero)**
 
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">/*
-   Elimina todo el texto posterío al comando
-   hasta el cierre de las comillas y Devolverá:
-   Hola mundo,2020
+   Delete all the text after the command until the closing of the quotation marks and returns:
+   Hello World Latino and happy new 2020
    */
 
-   anio = "2020"
-   escribir("Hola mundo,\0 Latino! y feliz "..anio)</code></pre>
+   year = "2020"
+   escribir("Hello World,\0 Latino! and happy new "..year)</code></pre>
 
-.. note:: De igual manera **\\0** al ser un valor nulo, también puede ser usado en condicionales lógicas:
+.. note:: In the same way \0 being a null value, it can also be used in logical conditionals:
    
-   **Ejemplo 1**
+   **Example 1**
    
    .. raw:: html
 
       <pre><code class="language-latino line-numbers">/*
-      Devolverá:
-      El valor no es nulo
+      Returns:
+      The value is not null
       */
 
       x = 5
       
       si x != "\0"
-        escribir ("El valor no es nulo") 
+        escribir ("The value is not null") 
       fin</code></pre>
    
-   **Ejemplo 2**
+   **Example 2**
 
    .. raw:: html
 
       <pre><code class="language-latino line-numbers">/*
-      Devolverá:
-      No es nulo
+      Returns:
+      It is not null
       */
 
       x = 5
 
       si x == "\0"
-        escribir ("Es un valor nulo")
+        escribir ("It is null")
       sino
-        escribir ("No es nulo")
+        escribir ("It is not null")
       fin</code></pre>
 
-Carácter con valor octal
+Character with octal value
 *************************
-Carácter a usar: **\\nnn**
+Character to use: **\\nnn**
 
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">/*
-   Devolverá:
-   Hola mundo
+   Returns:
+   Hello World
    */
 
-   texto = "\110\157\154\141\040\155\165\156\144\157"
-   escribir(texto)</code></pre>
+   text = "\110\157\154\141\040\155\165\156\144\157"
+   escribir(text)</code></pre>
 
 ----
 
-Textos de multiples líneas
+Multiple line texts
 ---------------------------
-Previamente vimos que las cadenas pueden ser textos líneales, pero también pueden ser textos de multiples líneas.
+We saw previously that strings can be linear texts, but they can also be multi-line texts.
 
-Para indicar cuando una cadena será de múltiples líneas, basta con dejar una de las comillas al inicio y otra al final del párrafo.
+To indicate when a string will be multi-line, just leave one of the quotation marks at the beginning and another at the end of the paragraph.
 
 .. raw:: html
 
-   <pre><code class="language-latino line-numbers">escribir("Ejemplo de texto de múltiples lineas:
+   <pre><code class="language-latino line-numbers">escribir("Sample multiple line text:
    ---------------------------------------
-   En este ejemplo podemos observar
-   que Latino es perfectamente capaz de
-   procesar textos de múltiples líneas
-   siempre y cuando una de las dos comillas
-   se encuentre al inicio del párrafo y otra al final")</code></pre>
+   In this example we can observe   
+   that Latino is perfectly capable of
+   process multi-line texts
+   as long as one of the two quotes
+   is at the beginning of the paragraph and another at the end")</code></pre>
 
 ----
 
-Textos como listas
+Texts as arrays
 --------------------
-Como en muchos otros lenguajes de programación, los textos son :ref:`listas (arrays) <listaLink>`.
+As in many other programming languages, texts are :ref:`arrays <listaLink>`.
 
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">/*
-   Devolverá:
-   la letra "o"
+   Returns:
+   the letter "e"
    */
 
-   x = "Hola"
+   x = "Hello"
    escribir(x[1])</code></pre>
 
 ----
 
-Convertir números a cadenas
+Convert numbers to strings
 ----------------------------
-En Latino existe una funcion pre-definida llamada **acadena( )** que nos convierte un número a una cadena(texto).
+In Latino there is a pre-defined function called **acadena( )** that converts a number to a string (text).
 
 .. raw:: html
    
    <pre><code class="language-latino line-numbers">x = 100
-   escribir(tipo(x))     //Devolverá decimal
+   escribir(tipo(x))     //Returns decimal
    
    x = acadena("100")
-   escribir(tipo(x))     //Devolverá cadena</code></pre>
+   escribir(tipo(x))     //Returns string</code></pre>
 
 .. Enlaces:
 
-.. _máquina de escribir: https://es.wikipedia.org/wiki/Máquina_de_escribir
-.. _teletipo: https://es.wikipedia.org/wiki/Teletipo
-.. _máquina de fax: https://es.wikipedia.org/wiki/Fax
-.. _aquí: https://es.stackoverflow.com/a/172368/183823
+.. _typewriter: https://es.wikipedia.org/wiki/Máquina_de_escribir
+.. _teletype: https://es.wikipedia.org/wiki/Teletipo
+.. _fax: https://es.wikipedia.org/wiki/Fax
+.. _here: https://es.stackoverflow.com/a/172368/183823

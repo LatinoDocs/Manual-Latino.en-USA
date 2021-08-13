@@ -5,45 +5,45 @@
    :keywords: manual, documentacion, latino, sintaxis, desde, for
 
 ===========================
-Condición Desde (For Loop)
+Desde loop(For Loop)
 ===========================
-La **condicional desde** hace repetir un mismo código una y otra vez hasta que su expresión sea cumplida (sea verdadera).
+**Desde** repeats the same code over and over again until its expression is fulfilled (is true).
 
-Regularmente, la condicional **desde** se utiliza para navegar entre los elementos de una **lista** o **diccionario**, pero también para ejecutar códigos que seán repetitivos.
+Typically, the **desde** loop is used to navigate between items in an **array** or **dictionary**, but also to execute code that will be repetitive.
 
 ----
 
-Sintaxis de la condicional "desde"
+"Desde" loop syntax
 ------------------------------------
 
-**Ejemplo de sintaxis**
+**Syntax example**
 
 .. code-block:: bash
    
-   desde (declaración; expresión; sentencia)
-     #Bloque de código
+   desde (declaration; expresion; statement)
+     #Code block
    fin
 
 +-----------------+--------------------------------------------------------------------+
-| Declaraciones   | Descripción                                                        |
+| Declarations    | Description                                                        |
 +=================+====================================================================+
-| **Declaración** | Esta se ejecuta (una sola vez) antes de la ejecución del código    |
+| **Declaration** | This is executed (only once) before the execution of the code      |
 +-----------------+--------------------------------------------------------------------+
-| **Expresión**   | Define las condiciones para que el bloque de código sea ejecutado  |
+| **Expresion**   | Define the conditions for the code block to be executed            |
 +-----------------+--------------------------------------------------------------------+
-| **Sentencia**   | Esta se ejecuta (cada vez) después de ejecutar el bloque de código |
+| **Statement**   | This is executed (every time) after executing the code block       |
 +-----------------+--------------------------------------------------------------------+
 
-**Ejemplo del código**
+**Sample code**
 
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">/*
-   En el siguiente código
-   mientras la variable i sea menor o igual que 10
-   la condicional desde seguirá ejecutándose.
+  In the following code
+    as long as the variable i is less than or equal to 10
+    the conditional from will continue to run.
    
-   El programa escribirá en pantalla:
+   The program will print on the screen:
    0 1 2 3 4 5 6 7 8 9 10
    */
 
@@ -54,82 +54,82 @@ Sintaxis de la condicional "desde"
 .. raw:: html
    
    <pre><code class="language-latino line-numbers">/*
-   En este otro ejemplo
-   el programa escribirá en pantalla:
+   In this other example
+   the program will print on the screen:
    10 9 8 7 6 5 4 3 2 1 0
    */
 
    desde (i = 10; i >= 0; i--)
      escribir(i)
    fin
-   #salida: 10 9 8 7 6 5 4 3 2 1 0</code></pre>
+   #output: 10 9 8 7 6 5 4 3 2 1 0</code></pre>
 
 ----
 
-Se puede especificar un salto diferente cambiando la expresión de incremento.
+A different way can be specified by changing the increment expression.
 
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">desde(i = 0; i < 50; i = i+10)
      imprimir(i)
    fin
-   #salida: 0 10 20 30 40</code></pre>
+   #output: 0 10 20 30 40</code></pre>
 
 ----
 
-Uso de librerías
+Use of libraries
 -----------------
-Las **expresiones** de la condicional **desde** pueden implementar el uso de :ref:`librerías <libreriasLink>`, así:
+**Expresiones** of the **desde** loop can implement the use of :ref:`libraries <libreriasLink>`, like this:
 
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">/*
-   Esta operación compárala la cantidad
-   de elementos en la lista frutas y
-   los escribirá en pantalla, así:
+   This operation compare the amount
+   of items in the fruit array and
+   will write them on screen, like this:
 
-   > manzana
-   > uva
-   > cereza
+   > apple
+   > grape
+   > cherry
    */
 
-   frutas = ["manzana", "uva", "cereza"]
+   fruit = ["apple", "grape", "cherry"]
 
-   desde(i=0; i < lista.longitud(frutas); i++)
-     imprimir(frutas[i])
+   desde(i=0; i < lista.longitud(fruit); i++)
+     imprimir(fruit[i])
    fin</code></pre>
 
 ----
 
-Anidar condicional "desde"
+Nesting "desde" loop
 ---------------------------
-Cuando una condicional **desde** contiene otro condicional **desde** dentro de ella, se le llama **condicional anidada**.
+When a **desde** loop contains another **desde** loop within it, it's called **nested loop**.
 
-Cuando la condicional "desde" (**madre**) se ejecuta y llega a una condicional anidada (**hija**), la condicional madre no continúa hasta que la condicional hija termine **todos sus ciclos** (hasta que sea verdadera). Todo este ciclo se repetirá hasta que la condicional madre sea verdadera.
+When the **desde** loop ( parent ) executes and reaches a nested loop ( child ), the parent loop does not continue until the child loop completes all of its cycles (until it is true). This whole cycle will repeat itself until the parent loop is true.
 
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">/*
-   Esta operación compara la cantidad
-   de elementos en la lista frutas y adjetivos
-   los escribirá en pantalla, así:
+   This operation compares the quantity
+   of elements in the fruit array and adjectives
+   will write them on screen, like this:
 
-   > manzana verde
-   > manzana grande
-   > manzana sabrosa
-   > uva verde
-   > uva grande
-   > uva sabrosa
-   > cereza verde
-   > cereza grande
-   > cereza sabrosa
+   > green apple
+   > green grape
+   > green cherry
+   > big apple 
+   > big grape
+   > big cherry
+   > delicious apple
+   > delicious grape
+   > delicious cherry
    */
    
-   frutas    = ["manzana", "uva", "cereza"]
-   adjetivos = ["verde", "grande", "sabrosa"]
+   fruit    = ["apple", "grape", "cherry"]
+   adjectives = ["green", "big", "delicious"]
 
-   desde(i=0; i < lista.longitud(frutas); i++)
-     desde (e=0; e < lista.longitud(adjetivos); e++)
-       escribir (frutas[i].." "..adjetivos[e])
+   desde(i=0; i < lista.longitud(adjectives); i++)
+     desde (e=0; e < lista.longitud(fruit); e++)
+       escribir (adjectives[i].." "..fruit[e])
      fin
    fin</code></pre>
