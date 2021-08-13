@@ -3,9 +3,9 @@
    :keywords: manual, documentacion, latino, funciones, funcion base
 
 ================
-Funciones Base
+Base functions
 ================
-Las funciones base o funciones internas son funciones predefinidas en latino, las cuales nos ayuda a realizar ciertos tipos de tareas.
+The base functions or internal functions are predefined functions in Latino, which help you to perform certain types of tasks.
 
 :ref:`acadena( ) <acadenaLink>`
 
