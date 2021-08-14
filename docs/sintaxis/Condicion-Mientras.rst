@@ -3,33 +3,32 @@
    :keywords: manual, documentacion, latino, sintaxis, mientras, while
 
 ================================
-Condición Mientras (While Loop)
+Mientras loop (While Loop)
 ================================
-La **condicional mientras** ejecuta un bloque de código repetidas veces mientras su **condición** se siga cumpliendo (sea verdadera).
+The **mientras loop** executing a block of code repeatedly as long as its **condition** is still met (is true).
 
-Esta condicional primero verifica que su condición se cumpla antes de ejecutar el código.
-
+This loop first verifies that its condition is met before executing the code.
 ----
 
-Sintaxis de la condicional "mientras"
+Syntax of the loop "mientras"
 --------------------------------------
 
-**Ejemplo de sintaxis**
+**Syntax example**
 
 .. code-block:: bash
    
-   mientras (condición)
-     #Bloque de código
+   mientras (condition)
+     #Code block
    fin
 
-**Ejemplo de código**
+**Code example**
 
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">/*
-   Mientras la operación sea verdadera
-   este código escribirá en pantalla
-   los siguientes números:
+   As long as the operation is true
+   this code will write on screen
+   the following numbers:
    0 1 2 3 4 5 6 7 8 9
    */
 
@@ -37,61 +36,61 @@ Sintaxis de la condicional "mientras"
    
    mientras i < 10
      escribir(i)
-     i++            //incrementamos el valor de i
+     i++            //Increases the value of i
    fin</code></pre>
 
-.. note:: En este ejemplo, si no se incrementa el valor de la variable **i** este bucle se repetiría infinitamente sin parar, produciendo un error en la memoria.
+.. note:: In this example, if the value of the variable **i** is not increased, this loop would repeat infinitely without stopping, producing an error in memory.
 
 ----
 
-Diferencias entre "mientras" y "desde"
+Difference between "mientras" and "desde"
 ---------------------------------------
-Como habrá notado, el **comando mientras** y el **comando desde** son muy parecidos entre sí, con la diferencia que el comando **mientras** no requiere de una **declaración** o **sentencia** como en el comando **desde**.
+As you may have noticed, the **mientras** command and the **desde** command are very similar to each other, with the difference that the **mientras** command does not require a declaration or statement as in the **desde** command .
 
-**Ejemplo #1: "desde"**
+**Example #1: "desde"**
 
-En este ejemplo se utiliza el comando **desde** para adquirir las marcas de carros en una variable.
+This example uses the command **desde** to acquire the car brands in a variable.
 
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">/*
-   Este ejemplo escribir en pantalla:
+   In this example, print on screen:
    BMW
    Volvo
    Ford
    Nissan
    */
    
-   carros = ["BMW", "Volvo", "Ford", "Nissan"]
-   texto = ""
+   cars = ["BMW", "Volvo", "Ford", "Nissan"]
+   text = ""
 
-   desde (i=0; i < lista.longitud(carros); i++)
-     texto = texto..carros[i].."\n"     # \n significa nueva línea
+   desde (i=0; i < lista.longitud(cars); i++)
+     text = text..cars[i].."\n"     # \n means new line
    fin
    
-   escribir(texto)</code></pre>
+   escribir(text)</code></pre>
 
-**Ejemplo #2: "mientras"**
+**Example #2: "mientras"**
 
-Este ejemplo es similar al anterior con la diferencia que se utilizara el **comando mientras**.
+This example is similar to the previous one with the difference that the **mientras** command will be used .
 
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">/*
-   Este ejemplo escribir en pantalla:
+   In this example, print on screen:
    BMW
    Volvo
    Ford
    Nissan
    */
 
-   carros = ["BMW", "Volvo", "Ford", "Nissan"]
+   cars = ["BMW", "Volvo", "Ford", "Nissan"]
    i = 0
-   texto = ""
+   text = ""
 
-   mientras(i < lista.longitud(carros))
-     texto = texto..carros[i].."\n"     # \n significa nueva línea
+   mientras(i < lista.longitud(cars))
+     text = text..cars[i].."\n"     # \n means new line
    i++
    fin
 
-   escribir(texto)</code></pre>
+   escribir(text)</code></pre>
