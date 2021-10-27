@@ -3,76 +3,76 @@
    :keywords: manual, documentacion, latino, sintaxis, elegir, switch
 
 ==========================
-Condición Elegir (Switch)
+Elegir conditional (Switch)
 ==========================
-La **condicional elegir** es una alternativa a la :ref:`condicional si <siLink>` que vimos en el capítulo anterior.
+The **Elegir condiditional** is an alternative to :ref:`si conditional <siLink>` that we saw in the previous chapter.
 
-Esta condicional es usada para realizar diferentes acciones basándose en diferentes condiciones lógicas. En otras palabras, esta condicional evalúa una opción en múltiples casos posibles y selecciona uno de varios bloques de códigos para ser ejecutados.
+This conditional is used to perform different actions based on different logical conditions. In other words, this conditional evaluates an option in multiple possible cases and selects one of several code blocks to be executed.
 
-La condicional elegir contiene las siguientes declaraciones:
+The choose conditional contains the following statements:
 
 +-------------+--------------------------------------------------------------------------------------------------------------+
-| Comandos    | Descripción                                                                                                  |
+| Commands    | Description                                                                                                  |
 +=============+==============================================================================================================+
-| **elegir**  | Inicio de la declaración. Esta evalúa la expresión condicional.                                              |
+| **elegir**  | Beginning of the declaration. It evaluates the conditional expression.                                             |
 +-------------+--------------------------------------------------------------------------------------------------------------+
-| **caso**    | El resultado de la expresión es evaluada y si concuerda con cualquier caso este es ejecutado.                |
+| **caso**    | The result of the expression is evaluated and if it matches any case it is executed.        |
 +-------------+--------------------------------------------------------------------------------------------------------------+
-| **defecto** | En caso de no producirse ninguna concordancia en ninguno de los casos, este bloque de código será ejecutado. |
+| **defecto** | If there is no match in any of the cases, this block of code will be executed. |
 +-------------+--------------------------------------------------------------------------------------------------------------+
-| **otro**    | Es exactamente lo mismo que el comando **defecto** solo con otro nombre.                                     |
+| **otro**    | It is exactly the same as the **defecto** command only with another name.                                 |
 +-------------+--------------------------------------------------------------------------------------------------------------+
-| **fin**     | Marca el fin de la declaración.                                                                              |
+| **fin**     | 	It marks the end of the statement.                                                                             |
 +-------------+--------------------------------------------------------------------------------------------------------------+
-| **romper**  | Detiene la ejecución del código.                                                                             |
+| **romper**  | Stops code execution.                                                                         |
 +-------------+--------------------------------------------------------------------------------------------------------------+
 
 ----
 
-Sintaxis de la condicional "elegir"
+Syntax of the "elegir" conditional
 ------------------------------------
 
-**Ejemplo de sintaxis**
+**Syntax example**
 
 .. code-block:: bash
    
-   elegir(expresión)
+   elegir(expression)
      caso 1:
-       #Bloque de código
+       #Code block
        romper
      caso 2:
-       #Bloque de código
+       #Code block
        romper
      defecto:
-       #Bloque de código
+       #Code block
    fin
 
-**Ejemplo de código**
+**Code example**
 
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">/*
-   Dependiendo de cual condición se cumpla
-   esta ejecutara el código en su caso correspondiente.
-
-   En este ejemplo el programa escribirá en pantalla
-   ¡Bien echo!.
+   Depending on which condition is fulfilled, it will execute the code in its corresponding case. 
+   
+   In this example the program will write on the screen 
+   
+   Well done!.
    */
-   calificacion = 'B'
+   score = 'B'
 
-   elegir(calificacion)
+   elegir(score)
      caso 'A':
-       escribir("¡Excelente!.")
+       escribir("¡Excellent!.")
      caso 'B':
-       escribir("¡Bien echo!.")
+       escribir("¡Well done!.")
      caso 'C':
-       escribir("¡Bien echo!.")
+       escribir("¡Well done!.")
      caso 'D':
-       escribir("Necesitas mejorar.")
+       escribir("You need to improve")
      caso 'F':
-       escribir("Has reprobado.")
+       escribir("You failed.")
      otro:
-       escribir("Calificación invalida.")
+       escribir("Invalid score")
    fin</code></pre>
 
-.. note:: Notese que se tiene que repetir el caso para B y C por el momento no se permiten casos múltiples como una sola opción.
+.. note:: Note that the case has to be repeated for B and C at the moment, multiple cases are not allowed as a single option.

@@ -5,101 +5,101 @@
    :keywords: manual, documentacion, latino, novedades
 
 ==========
-Novedades
+What's new?
 ==========
 
-Versión de Latino |LATINO_VERSION|
+Latino version |LATINO_VERSION|
 -----------------------------------
-Esta versión fue liberada el 10 de Octubre, 2020
+This version was released on October 10th, 2020
 
-Mejoras y novedades:
+Impromevents and releases:
 +++++++++++++++++++++
 
 ----
 
-Mejoras:
+Improvements:
 ~~~~~~~~~
 
 ----
 
-Comandos generales:
+General commands:
 ********************
-  * Se ha corregido el comando **imprimirf()** en MS-Windows
-  * Se ha corregido el comando **error()** en MS-Windows
-  * Se ha mejorado los comandos **imprimirf()** y **cadena.formato()**
-      * Tiene soporte para reconocer valores octales, hexadecimales y expresiones científicas.
-      * Los valores octales, hex y expresiones científicas deben de estar entre comillas (una cadena).
-  * Se ha solucionado el problema con las comillas simples en las cadenas
+  * The command **imprimirf()** has been fixed on Windows
+  * The command **error()** has been fixed on Windows
+  * The commands **imprimirf()** and **cadena.formato()** has been improved
+      * It has support for recognizing octal, hexadecimal values, and scientific expressions.
+      * Octal, hex, and scientific expression values must be enclosed in quotes (a string).
+  * Fixed issue with single quotes in strings
 
 Lib "archivo"
 **************
-  * Se ha corregido el comando **archivo.crear()**
-  * Se ha mejorado el comando **archivo.duplicar()**
-  * Se ha corregido el comando **archivo.renombrar()**
+  * The command **archivo.crear()** has been fixed
+  * The command **archivo.duplicar()** has been improved
+  * The command **archivo.renombrar()** has been fixed
 
 Lib "cadena"
 *************
-  * Se ha corregido el comando **cadena.reemplazar()**
-  * Se ha corregido el comando **cadena.recortar()** en MS-Windows
-  * Se ha corregido el comando **cadena.rellenar_izquierda()** en MS-Windows
+  * The command **cadena.reemplazar()** has been fixed
+  * The command **cadena.recortar()** has been fixed on Windows
+  * The command **cadena.rellenar_izquierda()** has been fixed on Windows
 
 Lib "lista"
 ************
-  * Se ha corregido el comando **lista.concatenar()**
-  * Se ha corregido el comando **lista.insertar()**
+  * The command **lista.concatenar()** has been fixed
+  * The command **lista.insertar()** has been fixed
 
 Lib "mate"
 ***********
-  * Se ha mejorado el comando **mate.aleatorio()**
+  * The command **mate.aleatorio()** has been improved
 
 Lib "sis"
 **********
-  * Se ha corregido el comando **sis.iraxy()** en MS-Windows
+  * The command **sis.iraxy()** has been fixed on Windows
 
 ----
 
-Novedades:
+What's new?:
 ~~~~~~~~~~~
 
 ----
 
 Lib "archivo"
 **************
-  * Se ha añadido el comando **archivo.anexar()**
-  * Se ha añadido un alias al comando **archivo.eliminar()**, y su nuevo alias es **archivo.borrar()**
-  * Se ha renombrado el comando **archivo.poner()** por **archivo.escribir()**
-  * Se ha renombrado el comanod **archivo.copiar()** por **archivo.duplicar()**
+  * The command **archivo.anexar()** has been added
+  * An alias for the command **archivo.eliminar()** has been added, and its new alias is **archivo.borrar()**
+  * The command **archivo.poner()** has been renamed to **archivo.escribir()**
+  * The command **archivo.copiar()** has been renamed to **archivo.duplicar()**
 
 Lib "cadena"
 *************
-  * Se ha renombrar el comando **cadena.regex()** por **cadena.regexl()**
-  * Se ha renombrar el comando **cadena.match()** por **cadena.regex()**
+  * The command **cadena.regex()** has been renamed to **cadena.regexl()**
+  * The command **cadena.match()** has been renamed to **cadena.regex()**
 
 Lib "dic"
 **********
-  * Se ha añadido el comando **dic.eliminar()**
-  * Se ha añadido el comando **dic.contiene()**
+  * The command **dic.eliminar()** has been added
+  * The command **dic.contiene()** has been added
 
 Lib "lista"
 *************
-  * Se ha añadido el comando **lista.separar()**
+  * The command **lista.separar()** has been added
 
 Lib "mate"
 ***********
-  * Se ha añadido el comando **mate.acosh()**
-  * Se ha añadido el comando **mate.asenh()**
-  * Se ha añadido el comando **mate.atanh()**
-  * Se ha añadido el comando **mate.pi()**
-  * Se ha añadido el comando **mate.max()**
-  * Se ha añadido el comando **mate.min()**
-  * Se ha añadido el comando **mate.raizc()**
-  * Se ha añadido el comando **mate.tau()**
-  * Se ha añadido el comando **mate.e()**
-  * Se ha añadido el comando **mate.trunc()**
-  * Se ha añadido un nuevo alias en el comando **mate.aleatorio()** el cual es **mate.alt()**
-  * Se ha añadido el comando **mate.redondear()** y su alias **mate.rnd()**
-  * Se ha añadido los comandos **mate.base()**, **mate.parte()** y **mate.porc()**
+  * The command **mate.acosh()** has been added
+  * The command **mate.asenh()** has been added
+  * The command **mate.atanh()** has been added
+  * The command **mate.pi()** has been added
+  * The command **mate.max()** has been added
+  * The command **mate.min()** has been added
+  * The command **mate.raizc()** has been added
+  * The command **mate.tau()** has been added
+  * The command **mate.e()** has been added
+  * The command **mate.trunc()** has been added
+  * A new alias for the command **mate.aleatorio()** has been added and it's **mate.alt()**
+  * The command **mate.redondear()** and its alias **mate.rnd()** have been added
+  * The commands **mate.base()**, **mate.parte()** and **mate.porc()** have been added
 
 Lib "sis"
 **********
-  * Se ha añadido el comando **sis.usuario()** en MS-Windows
+  * The command **sis.usuario()** has been added on Windows

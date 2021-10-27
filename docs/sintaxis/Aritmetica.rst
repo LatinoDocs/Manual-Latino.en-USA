@@ -5,48 +5,48 @@
    :keywords: manual, documentacion, latino, sintaxis, aritmetica
 
 ============
-Aritmética
+Arithmetic
 ============
 
-Operadores aritméticos
+Arithmetic operators
 -----------------------
-Los operadores aritméticos realizan operaciones matemáticas básicas tales como suma, resta, multiplicación y división en valores numéricos (constantes y variables).
+Arithmetic operators perform basic mathematical operations such as addition, subtraction, multiplication, and division on numeric values ​​(constants and variables).
 
 +----------+--------------------------------+
-| Operador | Descripción                    |
+| Operator | Description                    |
 +==========+================================+
-| \+       | Suma                           |
+| \+       | Addition                       |
 +----------+--------------------------------+
-| \-       | Resta                          |
+| \-       | Subtraction                    |
 +----------+--------------------------------+
-| \*       | Multiplicación                 |
+| \*       | Multiplication                 |
 +----------+--------------------------------+
-| \/       | División                       |
+| \/       | Division                       |
 +----------+--------------------------------+
-| \%       | Modulo (reminente de división) |
+| \%       | Modulo (Remainder)             |
 +----------+--------------------------------+
-| \^       | Potencia (Exponencial)         |
+| \^       | Power (Exponential)            |
 +----------+--------------------------------+
 
 ----
 
-**Ejemplos:**
+**Examples:**
 
-Una típica operación aritmética serían con dos números.
+A common arithmetic operation would be with two numbers.
 
-Con dos números literales:
+With two literal numbers:
 
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">x = 100 + 50</code></pre>
 
-o también con variables:
+or also with variables:
 
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">x = a + b</code></pre>
 
-o también con expresiones:
+or also with expressions:
 
 .. raw:: html
 
@@ -54,119 +54,119 @@ o también con expresiones:
 
 ----
 
-Suma
+Addition
 +++++
-El operador de **suma** (\+):
+The **sum** operator(\+):
 
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">x = 5
    y = 2
    z = x + y
-   escribir(z)    //El resultado sería 7</code></pre>
+   escribir(z)    //The result would be 7</code></pre>
 
-Resta
+Substraction
 ++++++
-El operador de **Resta** (\-):
+The **substaction** operator (\-):
 
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">x = 5
    y = 2
    z = x - y
-   escribir(z)    //El resultado sería 3</code></pre>
+   escribir(z)    //The result would be 3</code></pre>
 
-Multiplicación
+Multiplication
 +++++++++++++++
-El operador de **multiplicación** (\*):
+The **multiplication** operator (\*):
 
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">x = 5
    y = 2
    z = x * y
-   escribir(z)    //El resultado sería 10</code></pre>
+   escribir(z)    //The result would be 10</code></pre>
 
-División
+Division
 +++++++++
-El operador de **división** (/):
+The **division** operator (/):
 
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">x = 5
    y = 2
    z = x / y
-   escribir(z)    //El resultado sería 2.5</code></pre>
+   escribir(z)    //The result would be 2.5</code></pre>
 
-Modulo (Remitente)
+Modulo (Remainder)
 +++++++++++++++++++
-El operador de **remitente** (\%):
+The **remainder** operator (\%):
 
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">x = 5
    y = 2
    z = x % y
-   escribir(z)    //El resultado sería 1</code></pre>
+   escribir(z)    //The result would be 1</code></pre>
 
-Potencia
+Power
 +++++++++
-El operador de **función exponencial** (\^):
+The **exponential** operator (\^):
 
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">x = 5
    y = 2
    z = x ^ y
-   escribir(z)    //El resultado sería 25</code></pre>
+   escribir(z)    //The result would be 25</code></pre>
 
-.. note:: Para la **potencia**, podemos conseguir el mismo resultado utilizando la librería de matemáticas **mate.pot(5,2)**
+.. note:: For power calculations, you can achieve the same result using the math library **mate.pot(x,y)**
    
    .. raw:: html
    
       <pre><code class="language-latino line-numbers">x = 5
       y = 2
-      escribir(mate.pot(x,y))    //El resultado sería 25</code></pre>
+      escribir(mate.pot(x,y))    //The result would be 25</code></pre>
 
 ----
 
 .. _aritmeticaIncre:
 
-Operadores de incremento y decremento
+Increment and decrement operators
 --------------------------------------
 
-Incrementación
+Increment
 ++++++++++++++
-El operador de incremento, se representa por **suma doble** (+ +).
+The increment operator is represented by a **double addition** (+ +).
 
 .. raw:: html
 
-   <pre><code class="language-latino line-numbers">x = 5         //Declaramos una variable con un valor de 5
-   x++           //Se incrementa el valor de la variable X por 1
-   escribir(x)   //Es resultado sería 6</code></pre>
+   <pre><code class="language-latino line-numbers">x = 5         //Declare a variable with value 5
+   x++           //The value of the variable X increments by 1
+   escribir(x)   //The result would be 6</code></pre>
 
-Decrementación
+Decrement
 +++++++++++++++
-El operador de decremento, se representa por **resta doble** (\- \-).
+The decrement operator is represented by a **double substraction** (\- \-).
 
 .. raw:: html
 
-   <pre><code class="language-latino line-numbers">x = 5         //Declaramos una variable con un valor de 5
-   x--           //Se decrece el valor de la variable X por 1
-   escribir(x)   //Es resultado sería 4</code></pre>
+   <pre><code class="language-latino line-numbers">x = 5         //Declare a variable with value 5
+   x--           //The value of the variable X decrease by 1
+   escribir(x)   //The result would be 4</code></pre>
 
 ----
 
-Precedencia en los Operadores
+Precedence in Operators
 ------------------------------
-En aritmética, todos los operadores (aritméticos, lógicos y relacionales) tienen unas **reglas de precedencia** que se aplican cuando varios operadores actúan juntos, y Latino hace uso de estas reglas.
+In arithmetic, all operators (arithmetic, logical, and relational) have **precedence rules** that apply when several operators act together, and Latino makes use of those rules.
 
-Los operadores aritméticos, por ejemplo, la multiplicación y la división se ejecutan antes que la suma o la resta.
+Arithmetic operators, such as multiplication and division, are performed before addition or subtraction.
 
-Para alterar estas reglas de precedencia, se pueden usar **paréntesis ( )**.
+To override these precedence rules, **parentheses ()** can be used .
 
 .. raw:: html
 
-   <pre><code class="language-latino line-numbers">x = 100 + 50 * 3       //Devolverá 250
-   y = (100 + 50) * 3     //Devolverá 450
-   escribir ("Valor de X: " .. x .. ", Valor de Y: ".. y)</code></pre>
+   <pre><code class="language-latino line-numbers">x = 100 + 50 * 3       //Returns 250
+   y = (100 + 50) * 3     //Returns 450
+   escribir ("Value of X: " .. x .. ", Value of Y: ".. y)</code></pre>

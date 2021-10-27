@@ -5,11 +5,11 @@
    :keywords: manual, documentacion, latino, sintaxis, asignacion
 
 ============
-Asignación
+Assignment
 ============
 
 +----------+---------+------------+
-| Operador | Ejemplo | Igual a    |
+| Operator | Example | Equal to   |
 +==========+=========+============+
 | =        | x = y   | x = y      |
 +----------+---------+------------+
@@ -26,65 +26,65 @@ Asignación
 
 ----
 
-Operador =
+Operator =
 -----------
-El asignador operacional **=** asigna un valor a la variable **x**
+The operator **=** assigns a value to the variable **x**
 
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">x = 100</code></pre>
 
-Operador +=
+Operator +=
 ------------
-El asignador operacional **+=** suma los valores de las variables **x** más **y** y los asigna a la variable **x**
+The operator **+=** sums the values ​​of the variables **x** plus **y** and assigns them to the variable **x**
 
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">x = 10
    y = 5
    x += y
-   escribir(x)  //El resultado será 15</code></pre>
+   escribir(x)  //The result will be 15</code></pre>
 
-Operador -=
+Operator -=
 ------------
-El asignador operacional **-=** resta los valores de las variables **x** menos **y** y los asigna a la variable **x**
+The operator **-=** subtracts the values ​​of the variables **x** minus **y** and assigns them to the variable **x**
 
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">x = 10
    y = 5
    x -= y
-   escribir(x)  //El resultado será 5</code></pre>
+   escribir(x)  //The result will be 5</code></pre>
 
-Operador \*=
+Operator \*=
 -------------
-El asignador operacional ***=** multiplica los valores de las variables **x** por **y** y los asigna a la variable **x**
+The operator **=** multiplies the values ​​of the variables **x** by **y** and assigns them to the variable **x**
 
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">x = 10
    y = 5
    x *= y
-   escribir(x)  //El resultado será 50</code></pre>
+   escribir(x)  //The result will be 50</code></pre>
 
-Operador /=
+Operator /=
 ------------
-El asignador operacional **/=** divide los valores de las variables **x** entre **y** y los asigna a la variable **x**
+The operator **/=** divides the values ​​of the variables **x** by **y** and assigns them to the variable **x**
 
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">x = 10
    y = 5
    x /= y
-   escribir(x)  //El resultado será 2</code></pre>
+   escribir(x)  //The result will be 2</code></pre>
 
-Operador %=
+Operator %=
 ------------
-El asignador operacional **%=** nos devuelve el remitente (modulo) de la divide los valores de las variables **x** entre **y** y los asigna a la variable **x**
+The operator **%=** returns the remainder (module) that divides the values ​​of the variables **x** by **y** and assigns them to the variable **x**
 
 .. raw:: html
 
    <pre><code class="language-latino line-numbers">x = 10
    y = 5
    x %= y
-   escribir(x)  //El resultado será 0</code></pre>
+   escribir(x)  //The result will be 0</code></pre>

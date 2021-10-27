@@ -3,14 +3,14 @@
    :keywords: instalacion, latino
 
 =================
-Instalar Latino
+Install Latino
 =================
-Latino es un lenguaje portátil, el cual puede ser instalado en los sistemas operativos más populares en la actualidad.
+Latino is a portable language, which can be installed on the most popular operating systems today.
 
-:ref:`Instalar Latino en MS-Windows <windowsLink>`
+:ref:`Install Latino on MS-Windows <windowsLink>`
 
-:ref:`Instalar Latino en Debian/Ubuntu <debianLink>`
+:ref:`Install Latino on Debian/Ubuntu <debianLink>`
 
-:ref:`Instalar Latino en Fedora/CentOS <fedoraLink>`
+:ref:`Install Latino on Fedora/CentOS <fedoraLink>`
 
-:ref:`Instalar Latino en macOSX <macLink>`
+:ref:`Install Latino on macOSX <macLink>`
